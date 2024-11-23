@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Flood Forecast Dashboard</title>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #1a1a2e;
+        color: #e0e0e0;
+      }
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes slideIn {
+        from {
+          transform: translateY(20px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.05);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      .animate-fadeIn {
+        animation: fadeIn 0.5s ease-out;
+      }
+      .animate-slideIn {
+        animation: slideIn 0.5s ease-out;
+      }
+      .animate-pulse {
+        animation: pulse 2s infinite;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gradient-to-br from-gray-900 via-blue-900 to-blue-800 min-h-screen"
+  >
+    {% include 'navbar.html' %}
+
+    <div class="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
+      <header class="text-center mb-12">
+        <h1 class="text-5xl font-bold text-blue-300 tracking-wide mb-4">
+          Flood Forecast Dashboard
+        </h1>
+        <p class="text-xl text-blue-200">
+          Stay informed and prepared with our advanced flood prediction system
+        </p>
+      </header>
+
+      <div class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+          <!-- Current River Discharge -->
+          <div
+            class="glass-effect p-6 shadow-lg rounded-xl transition-all duration-300 hover:shadow-2xl"
+          >
+            <h2
+              class="text-3xl font-bold text-blue-300 mb-6 border-b border-blue-500 pb-2"
+            >
+              Current River Discharge
+            </h2>
+            <div class="grid grid-cols-1 gap-3">
+              <div class="space-y-4">
+                <p class="text-blue-200 flex items-center">
+                  <svg
+                    class="w-5 h-5 mr-2 text-blue-400"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                    ></path>
+                  </svg>
+                  Date: <span id="current-date" class="font-medium ml-1"></span>
+                </p>
+                <p class="text-blue-200 flex items-center">
+                  <svg
+                    class="w-5 h-5 mr-2 text-blue-400"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    ></path>
+                  </svg>
+                  Time: <span id="current-time" class="font-medium ml-1"></span>
+                </p>
+              </div>
+              <div class="space-y-4">
+                <p class="text-blue-200 flex items-center">
+                  <svg
+                    class="w-5 h-5 mr-2 text-blue-400"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    ></path>
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    ></path>
+                  </svg>
+                  Location:
+                  <span class="font-medium ml-1">Mag-asawang Tubig Bridge</span>
+                </p>
+                <p class="text-blue-200 flex items-center">
+                  <svg
+                    class="w-5 h-5 mr-2 text-blue-400"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
+                    ></path>
+                  </svg>
+                  Coordinates:
+                  <span class="font-medium ml-1">121.259722, 13.27443</span>
+                </p>
+              </div>
+            </div>
+            <div class="mt-8 text-center">
+              {% if current_river_discharge %}
+              <div
+                class="inline-flex items-center p-4"
+              >
+                <svg
+                  class="w-12 h-12 mr-4 text-blue-300"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
+                  ></path>
+                </svg>
+                <div class="flex flex-row">
+                  <span class="text-5xl font-bold text-blue-300 block">
+                    {{ current_river_discharge.level|floatformat:2 }}
+                  </span>
+                  <span class="text-2xl text-blue-400 ml-2 mt-2 block">m³/s</span>
+                </div>
+              </div>
+              {% else %}
+              <p class="text-blue-200 text-xl italic">
+                No current river discharge data available.
+              </p>
+              {% endif %}
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div
+            class="glass-effect p-6 shadow-lg rounded-xl transition-all duration-300 hover:shadow-2xl"
+          >
+            <h2
+              class="text-3xl font-bold text-blue-300 mb-6 border-b border-blue-500 pb-2"
+            >
+              Location Map
+            </h2>
+            <div id="map" class="h-80 rounded-lg shadow-inner"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Weather Information -->
+      {% if current_weather %}
+      <div class="glass-effect p-6 shadow-lg mb-12">
+        <h2 class="text-2xl font-semibold text-green-300 mb-6">
+          Current Weather
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+          <div>
+            <i class="fas fa-temperature-high text-4xl text-red-400 mb-2"></i>
+            <p class="text-xl font-medium text-red-300">
+              {{ current_weather.temperature }}°C
+            </p>
+            <p class="text-blue-200">Temperature</p>
+          </div>
+          <div>
+            <i class="fas fa-tint text-4xl text-blue-400 mb-2"></i>
+            <p class="text-xl font-medium text-blue-300">
+              {{ current_weather.humidity }}%
+            </p>
+            <p class="text-blue-200">Humidity</p>
+          </div>
+          <div>
+            <i class="fas fa-compress-alt text-4xl text-purple-400 mb-2"></i>
+            <p class="text-xl font-medium text-purple-300">
+              {{ current_weather.pressure }} hPa
+            </p>
+            <p class="text-blue-200">Pressure</p>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- River Discharge Forecast -->
+      <div class="mb-12">
+        <h2 class="text-2xl font-semibold text-blue-300 mb-6">
+          River Discharge Forecast
+        </h2>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7 gap-4"
+        >
+          {% for prediction in forecast_data %}
+          <div class="glass-effect p-4 text-center">
+            <h3 class="font-medium text-lg text-blue-200">
+              {{ prediction.day }}
+            </h3>
+            <p class="text-sm text-blue-300">{{ prediction.date }}</p>
+            <p class="text-3xl font-bold text-blue-300 my-2">
+              {{ prediction.value|floatformat:2 }}
+              <span class="text-lg font-normal text-blue-400">m³/s</span>
+            </p>
+            <p
+              class="text-sm font-medium rounded-full py-1 px-2 inline-block {% if prediction.risk == 'High' %} bg-red-900 text-red-300 {% elif prediction.risk == 'Moderate' %} bg-yellow-900 text-yellow-300 {% else %} bg-green-900 text-green-300 {% endif %}"
+            >
+              Risk: {{ prediction.risk }}
+            </p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <!-- Combined Forecast -->
+      <div class="mb-24">
+        <h2 class="text-2xl font-semibold text-green-300 mb-6">
+          Combined Weather and River Discharge Forecast
+        </h2>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7 gap-4"
+        >
+          {% for prediction in combined_forecast_data %}
+          <div class="glass-effect p-4 text-center">
+            <h3 class="font-medium text-lg text-green-200">
+              {{ prediction.day }}
+            </h3>
+            <p class="text-sm text-green-300">{{ prediction.date }}</p>
+            <p class="text-3xl font-bold text-green-300 my-2">
+              {{ prediction.value|floatformat:2 }}
+              <span class="text-lg font-normal text-green-400">m³/s</span>
+            </p>
+            <p
+              class="text-sm font-medium rounded-full py-1 px-2 inline-block {% if prediction.risk == 'High' %} bg-red-900 text-red-300 {% elif prediction.risk == 'Moderate' %} bg-yellow-900 text-yellow-300 {% else %} bg-green-900 text-green-300 {% endif %}"
+            >
+              Risk: {{ prediction.risk }}
+            </p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    {% include 'footer.html' %}
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoidG94aWNvb2tpZSIsImEiOiJjbTNwdmJ3anYwaWpoMnJzZno3dzRzYjVsIn0.JdNtc3VaWJfD1YWX1r86oQ";
+
+      const map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/dark-v10",
+        center: [121.259722, 13.27443],
+        zoom: 14,
+        pitch: 60,
+        bearing: -17.6,
+      });
+
+      map.on("load", function () {
+        map.addSource("mapbox-dem", {
+          type: "raster-dem",
+          url: "mapbox://mapbox.mapbox-terrain-dem-v1",
+          tileSize: 512,
+          maxzoom: 14,
+        });
+        map.setTerrain({ source: "mapbox-dem", exaggeration: 1.5 });
+
+        map.addLayer({
+          id: "sky",
+          type: "sky",
+          paint: {
+            "sky-type": "atmosphere",
+            "sky-atmosphere-sun": [0.0, 90.0],
+            "sky-atmosphere-sun-intensity": 15,
+          },
+        });
+
+        const marker = new mapboxgl.Marker({ color: "#3B82F6" })
+          .setLngLat([121.259722, 13.27443])
+          .addTo(map);
+      });
+
+      function updateTime() {
+        const now = new Date();
+        const options = {
+          weekday: "long",
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        };
+        document.getElementById("current-date").textContent =
+          now.toLocaleDateString("en-US", options);
+        document.getElementById("current-time").textContent =
+          now.toLocaleTimeString("en-US");
+      }
+
+      updateTime();
+      setInterval(updateTime, 1000);
+    </script>
+  </body>
+</html>

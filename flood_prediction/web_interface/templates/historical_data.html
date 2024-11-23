@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Historical Data Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@2.29.3/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #1a1a2e;
+        color: #e0e0e0;
+      }
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      #metricSelect {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+        background-position: right 0.5rem center;
+        background-repeat: no-repeat;
+        background-size: 1.5em 1.5em;
+      }
+    </style>
+    <script>
+      Chart.register(ChartDataLabels);
+      Chart.register(ChartJS.TimeScale);
+    </script>
+  </head>
+  <body
+    class="bg-gradient-to-br from-gray-900 via-blue-900 to-blue-800 min-h-screen"
+  >
+    {% include 'navbar.html' %}
+
+    <div class="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
+      <header class="text-center mb-12">
+        <h1 class="text-5xl font-bold text-blue-300 tracking-wide mb-4">
+          Historical Data Analysis
+        </h1>
+        <p class="text-xl text-blue-200">
+          Statistical Measures and Trend Analysis
+        </p>
+      </header>
+
+      <div id="errorContainer" class="glass-effect p-6 text-center hidden">
+        <p class="text-xl text-red-400"></p>
+      </div>
+
+      <div id="contentContainer" class="hidden">
+        <div class="mb-8">
+          <h2 class="text-2xl font-semibold text-blue-300 mb-4">
+            Select Metric
+          </h2>
+          <div class="relative">
+            <select
+              id="metricSelect"
+              class="bg-blue-900 text-white p-2 rounded-md w-full sm:w-auto pl-10 pr-10 py-2 appearance-none"
+            >
+              <option value="river_discharge">
+                <i class="fas fa-water mr-2"></i> River Discharge
+              </option>
+              <option value="temperature">
+                <i class="fas fa-thermometer-half mr-2"></i> Temperature
+              </option>
+              <option value="humidity">
+                <i class="fas fa-tint mr-2"></i> Humidity
+              </option>
+              <option value="pressure">
+                <i class="fas fa-compress-alt mr-2"></i> Pressure
+              </option>
+            </select>
+            <div
+              class="pointer-events-none absolute inset-y-0 left-0 flex items-center px-2 text-white"
+            >
+              <i id="selectedIcon" class="fas fa-water"></i>
+            </div>
+          </div>
+        </div>
+
+        <div id="statisticsContainer" class="mb-8">
+          <!-- Statistics will be dynamically inserted here -->
+        </div>
+
+        <div id="trendAnalysisContainer" class="mb-8">
+          <h2 class="text-2xl font-semibold text-blue-300 mb-4">
+            Trend Analysis
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="glass-effect p-4">
+              <h3 class="text-lg font-semibold text-blue-300 mb-2">
+                Moving Averages
+              </h3>
+              <canvas id="movingAveragesChart"></canvas>
+            </div>
+            <div class="glass-effect p-4">
+              <h3 class="text-lg font-semibold text-blue-300 mb-2">
+                Linear Trend
+              </h3>
+              <canvas id="linearTrendChart"></canvas>
+            </div>
+            <div class="glass-effect p-4">
+              <h3 class="text-lg font-semibold text-blue-300 mb-2">
+                Seasonal Patterns
+              </h3>
+              <canvas id="seasonalPatternsChart"></canvas>
+            </div>
+            <div class="glass-effect p-4">
+              <h3 class="text-lg font-semibold text-blue-300 mb-2">
+                Exponential Moving Average (EMA)
+              </h3>
+              <canvas id="emaChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        let stats;
+        let chartData;
+        let charts = {};
+
+        function getGlobalChartOptions() {
+          return {
+            responsive: true,
+            plugins: {
+              legend: {
+                labels: {
+                  color: "white",
+                },
+              },
+            },
+            scales: {
+              x: {
+                type: "time",
+                time: {
+                  unit: "day",
+                },
+                ticks: {
+                  color: "white",
+                },
+                grid: {
+                  color: "rgba(255, 255, 255, 0.1)",
+                },
+              },
+              y: {
+                ticks: {
+                  color: "white",
+                },
+                grid: {
+                  color: "rgba(255, 255, 255, 0.1)",
+                },
+              },
+            },
+          };
+        }
+
+        async function fetchData() {
+          try {
+            const response = await fetch("/api/history");
+            const data = await response.json();
+            console.log("Data:", data);
+            if (data.error) {
+              throw new Error(data.error);
+            }
+            stats = data.stats;
+            chartData = data.chart_data;
+            document
+              .getElementById("contentContainer")
+              .classList.remove("hidden");
+            updateStatistics("river_discharge");
+            updateTrendAnalysis("river_discharge");
+          } catch (error) {
+            const errorContainer = document.getElementById("errorContainer");
+            errorContainer.classList.remove("hidden");
+            errorContainer.querySelector("p").textContent = error.message;
+          }
+        }
+
+        function updateStatistics(metric) {
+          const container = document.getElementById("statisticsContainer");
+          container.innerHTML = "";
+          const metricStats = stats[metric];
+
+          const statIcons = {
+            mean: "fa-calculator",
+            median: "fa-sort-numeric-down",
+            mode: "fa-chart-bar",
+            max: "fa-arrow-up",
+            min: "fa-arrow-down",
+            std_dev: "fa-chart-line",
+            variance: "fa-chart-area",
+            range: "fa-arrows-alt-h",
+            iqr: "fa-grip-lines-vertical",
+          };
+
+          const statDescriptions = {
+            mean: "Average of all values",
+            median: "Middle value when sorted",
+            mode: "Most frequent value",
+            max: "Highest value",
+            min: "Lowest value",
+            std_dev: "Measure of data spread",
+            variance: "Square of standard deviation",
+            range: "Difference between max and min",
+            iqr: "Range of middle 50% of data",
+          };
+
+          const html = `
+            <h2 class="text-2xl font-semibold text-blue-300 mb-4">${
+              metric.replace("_", " ").charAt(0).toUpperCase() +
+              metric.replace("_", " ").slice(1)
+            } Statistical Measures</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              ${Object.entries(metricStats)
+                .map(
+                  ([stat, value]) => `
+                <div class="glass-effect p-4 flex flex-col justify-between">
+                  <div>
+                    <h3 class="text-lg font-semibold text-blue-300 mb-2 flex items-center">
+                      <i class="fas ${
+                        statIcons[stat] || "fa-chart-line"
+                      } mr-2"></i>
+                      ${
+                        stat.charAt(0).toUpperCase() +
+                        stat.slice(1).replace("_", " ")
+                      }
+                    </h3>
+                    <p class="text-sm text-blue-200 mb-2">${
+                      statDescriptions[stat] || ""
+                    }</p>
+                  </div>
+                  <p class="text-2xl font-bold text-blue-100">${
+                    typeof value === "number" ? value.toFixed(2) : value
+                  }</p>
+                </div>
+              `
+                )
+                .join("")}
+            </div>
+          `;
+
+          container.innerHTML = html;
+        }
+
+        function updateSelectedIcon(metric) {
+          const iconElement = document.getElementById("selectedIcon");
+          iconElement.className = "fas text-lg ";
+          switch (metric) {
+            case "river_discharge":
+              iconElement.className += "fa-water";
+              break;
+            case "temperature":
+              iconElement.className += "fa-thermometer-half";
+              break;
+            case "humidity":
+              iconElement.className += "fa-tint";
+              break;
+            case "pressure":
+              iconElement.className += "fa-compress-alt";
+              break;
+          }
+        }
+
+        function updateTrendAnalysis(metric) {
+          const dates = chartData.map((d) => d.date);
+          const values = chartData.map((d) => d[metric]);
+
+          updateMovingAveragesChart(dates, values);
+          updateLinearTrendChart(dates, values);
+          updateSeasonalPatternsChart(dates, values);
+          updateEMAChart(dates, values);
+        }
+
+        function updateMovingAveragesChart(dates, values) {
+          const ctx = document
+            .getElementById("movingAveragesChart")
+            .getContext("2d");
+          if (charts.movingAverages) charts.movingAverages.destroy();
+
+          const sevenDayMA = calculateMovingAverage(values, 7);
+          const thirtyDayMA = calculateMovingAverage(values, 30);
+
+          charts.movingAverages = new Chart(ctx, {
+            type: "line",
+            data: {
+              labels: dates,
+              datasets: [
+                {
+                  label: "Original Data",
+                  data: values,
+                  borderColor: "rgba(75, 192, 192, 1)",
+                  fill: false,
+                },
+                {
+                  label: "7-day MA",
+                  data: sevenDayMA,
+                  borderColor: "rgba(255, 99, 132, 1)",
+                  fill: false,
+                },
+                {
+                  label: "30-day MA",
+                  data: thirtyDayMA,
+                  borderColor: "rgba(54, 162, 235, 1)",
+                  fill: false,
+                },
+              ],
+            },
+            options: {
+              ...getGlobalChartOptions(),
+              plugins: {
+                ...getGlobalChartOptions().plugins,
+                tooltip: {
+                  callbacks: {
+                    label: function (context) {
+                      let label = context.dataset.label || "";
+                      if (label) {
+                        label += ": ";
+                      }
+                      if (context.parsed.y !== null) {
+                        label += context.parsed.y.toFixed(2);
+                      }
+                      return label;
+                    },
+                  },
+                },
+              },
+            },
+          });
+        }
+
+        function updateLinearTrendChart(dates, values) {
+          const ctx = document
+            .getElementById("linearTrendChart")
+            .getContext("2d");
+          if (charts.linearTrend) charts.linearTrend.destroy();
+
+          const trendLine = calculateLinearTrend(values);
+
+          charts.linearTrend = new Chart(ctx, {
+            type: "scatter",
+            data: {
+              datasets: [
+                {
+                  label: "Data Points",
+                  data: values.map((v, i) => ({ x: i, y: v })),
+                  borderColor: "rgba(75, 192, 192, 1)",
+                  backgroundColor: "rgba(75, 192, 192, 0.5)",
+                },
+                {
+                  label: "Trend Line",
+                  data: trendLine.map((v, i) => ({ x: i, y: v })),
+                  type: "line",
+                  borderColor: "rgba(255, 99, 132, 1)",
+                  fill: false,
+                },
+              ],
+            },
+            options: {
+              ...getGlobalChartOptions(),
+              scales: {
+                ...getGlobalChartOptions().scales,
+                x: {
+                  ...getGlobalChartOptions().scales.x,
+                  type: "linear",
+                  position: "bottom",
+                },
+              },
+            },
+          });
+        }
+
+        function updateSeasonalPatternsChart(dates, values) {
+          const ctx = document
+            .getElementById("seasonalPatternsChart")
+            .getContext("2d");
+          if (charts.seasonalPatterns) charts.seasonalPatterns.destroy();
+
+          const seasonalData = calculateSeasonalPatterns(values);
+
+          charts.seasonalPatterns = new Chart(ctx, {
+            type: "line",
+            data: {
+              labels: [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec",
+              ],
+              datasets: [
+                {
+                  label: "Seasonal Pattern",
+                  data: seasonalData,
+                  borderColor: "rgba(75, 192, 192, 1)",
+                  fill: false,
+                },
+              ],
+            },
+            options: {
+              ...getGlobalChartOptions(),
+              scales: {
+                ...getGlobalChartOptions().scales,
+                x: {
+                  ...getGlobalChartOptions().scales.x,
+                  type: "category", // Change this from 'time' to 'category'
+                },
+              },
+            },
+          });
+        }
+
+        function updateEMAChart(dates, values) {
+          const ctx = document.getElementById("emaChart").getContext("2d");
+          if (charts.ema) charts.ema.destroy();
+
+          const emaValues = calculateEMA(values, 7);
+
+          charts.ema = new Chart(ctx, {
+            type: "line",
+            data: {
+              labels: dates,
+              datasets: [
+                {
+                  label: "Original Data",
+                  data: values,
+                  borderColor: "rgba(75, 192, 192, 1)",
+                  fill: false,
+                },
+                {
+                  label: "7-day EMA",
+                  data: emaValues,
+                  borderColor: "rgba(255, 99, 132, 1)",
+                  fill: false,
+                },
+              ],
+            },
+            options: getGlobalChartOptions(),
+          });
+        }
+
+        function calculateMovingAverage(data, window) {
+          const result = [];
+          for (let i = 0; i < data.length; i++) {
+            if (i < window - 1) {
+              result.push(null);
+            } else {
+              const windowSlice = data.slice(i - window + 1, i + 1);
+              const average = windowSlice.reduce((a, b) => a + b, 0) / window;
+              result.push(average);
+            }
+          }
+          return result;
+        }
+
+        function calculateLinearTrend(data) {
+          const n = data.length;
+          const sum_x = (n * (n - 1)) / 2;
+          const sum_y = data.reduce((a, b) => a + b, 0);
+          const sum_xy = data.reduce((sum, y, x) => sum + x * y, 0);
+          const sum_xx = (n * (n - 1) * (2 * n - 1)) / 6;
+
+          const slope =
+            (n * sum_xy - sum_x * sum_y) / (n * sum_xx - sum_x * sum_x);
+          const intercept = (sum_y - slope * sum_x) / n;
+
+          return Array.from({ length: n }, (_, i) => slope * i + intercept);
+        }
+
+        function calculateSeasonalPatterns(data) {
+          // This is a simplified approach. For more accurate results, you might want to use more advanced techniques.
+          const seasonalData = new Array(12).fill(0);
+          const counts = new Array(12).fill(0);
+
+          for (let i = 0; i < data.length; i++) {
+            const month = i % 12;
+            seasonalData[month] += data[i];
+            counts[month]++;
+          }
+
+          return seasonalData.map((sum, i) => sum / counts[i]);
+        }
+
+        function calculateEMA(data, period) {
+          const k = 2 / (period + 1);
+          const emaData = [];
+          let ema = data[0];
+
+          for (let i = 0; i < data.length; i++) {
+            if (i === 0) {
+              emaData.push(ema);
+            } else {
+              ema = data[i] * k + ema * (1 - k);
+              emaData.push(ema);
+            }
+          }
+
+          return emaData;
+        }
+
+        document
+          .getElementById("metricSelect")
+          .addEventListener("change", (event) => {
+            const selectedMetric = event.target.value;
+            updateStatistics(selectedMetric);
+            updateSelectedIcon(selectedMetric);
+            updateTrendAnalysis(selectedMetric);
+          });
+
+        // Fetch data when the page loads
+        fetchData();
+      </script>
+    </div>
+  </body>
+</html>

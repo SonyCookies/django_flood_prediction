@@ -1,0 +1,324 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body class="bg-gray-100">
+    <div class="flex h-screen bg-gray-100">
+      <!-- Sidebar -->
+      <aside class="hidden w-64 bg-gray-800 text-white lg:block">
+        <div class="p-4">
+          <h1 class="text-2xl font-semibold">Creative Tim</h1>
+        </div>
+        <nav class="mt-8">
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+            >Dashboard</a
+          >
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+            >Pages</a
+          >
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+            >Account</a
+          >
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+            >Applications</a
+          >
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+            >Ecommerce</a
+          >
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700">Team</a>
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+            >Projects</a
+          >
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+            >Authentication</a
+          >
+        </nav>
+        <div class="mt-auto p-4">
+          <div class="bg-gray-700 p-4 rounded-lg">
+            <h3 class="font-semibold mb-2">Need help?</h3>
+            <p class="text-sm text-gray-300 mb-4">Please check our docs</p>
+            <button
+              class="w-full bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-500 transition duration-200"
+            >
+              Documentation
+            </button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <div class="flex-1 flex flex-col overflow-hidden">
+
+        <!-- Dashboard Content -->
+        <main class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-100">
+          <div class="container mx-auto px-6 py-8">
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8"
+            >
+              <!-- Today's Money Card -->
+              <div class="bg-white rounded-lg shadow-sm p-6">
+                <div class="flex items-center justify-between mb-4">
+                  <h3 class="text-sm font-medium text-gray-500">
+                    TODAY'S MONEY
+                  </h3>
+                  <span class="text-blue-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <p class="text-2xl font-semibold">$53,000</p>
+                <p class="text-sm text-green-500">+55% since yesterday</p>
+              </div>
+
+              <!-- Today's Users Card -->
+              <div class="bg-white rounded-lg shadow-sm p-6">
+                <div class="flex items-center justify-between mb-4">
+                  <h3 class="text-sm font-medium text-gray-500">
+                    TODAY'S USERS
+                  </h3>
+                  <span class="text-orange-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <p class="text-2xl font-semibold">2,300</p>
+                <p class="text-sm text-green-500">+3% since last week</p>
+              </div>
+
+              <!-- New Clients Card -->
+              <div class="bg-white rounded-lg shadow-sm p-6">
+                <div class="flex items-center justify-between mb-4">
+                  <h3 class="text-sm font-medium text-gray-500">NEW CLIENTS</h3>
+                  <span class="text-green-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <p class="text-2xl font-semibold">+3,462</p>
+                <p class="text-sm text-red-500">-2% last quarter</p>
+              </div>
+
+              <!-- Sales Card -->
+              <div class="bg-white rounded-lg shadow-sm p-6">
+                <div class="flex items-center justify-between mb-4">
+                  <h3 class="text-sm font-medium text-gray-500">SALES</h3>
+                  <span class="text-red-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <p class="text-2xl font-semibold">$103,430</p>
+                <p class="text-sm text-green-500">+5% than last month</p>
+              </div>
+            </div>
+
+            <!-- Sales Overview Chart -->
+            <div class="bg-white rounded-lg shadow-sm p-6 mb-8">
+              <h3 class="text-lg font-semibold mb-4">Sales Overview</h3>
+              <p class="text-sm text-gray-500 mb-4">4% more in 2021</p>
+              <canvas id="salesChart" width="400" height="200"></canvas>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              <!-- Team Members -->
+              <div class="bg-white rounded-lg shadow-sm p-6">
+                <h3 class="text-lg font-semibold mb-4">Team Members</h3>
+                <div class="space-y-4">
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-3">
+                      <img
+                        src="https://via.placeholder.com/40"
+                        alt="John Michael"
+                        class="rounded-full"
+                      />
+                      <div>
+                        <p class="font-medium">John Michael</p>
+                        <span
+                          class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full"
+                          >ONLINE</span
+                        >
+                      </div>
+                    </div>
+                    <button
+                      class="text-sm bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold py-1 px-3 rounded"
+                    >
+                      Add
+                    </button>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-3">
+                      <img
+                        src="https://via.placeholder.com/40"
+                        alt="Alex Smith"
+                        class="rounded-full"
+                      />
+                      <div>
+                        <p class="font-medium">Alex Smith</p>
+                        <span
+                          class="text-xs bg-red-100 text-red-800 px-2 py-1 rounded-full"
+                          >IN MEETING</span
+                        >
+                      </div>
+                    </div>
+                    <button
+                      class="text-sm bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold py-1 px-3 rounded"
+                    >
+                      Add
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- To Do List -->
+              <div class="bg-white rounded-lg shadow-sm p-6">
+                <h3 class="text-lg font-semibold mb-4">To Do List</h3>
+                <div class="space-y-4">
+                  <div class="flex items-start space-x-3">
+                    <input type="checkbox" class="mt-1" />
+                    <div>
+                      <p class="font-medium">Call with Dave</p>
+                      <p class="text-sm text-gray-500">09:30 AM</p>
+                    </div>
+                  </div>
+                  <div class="flex items-start space-x-3">
+                    <input type="checkbox" class="mt-1" />
+                    <div>
+                      <p class="font-medium">Brunch Meeting</p>
+                      <p class="text-sm text-gray-500">11:00 AM</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Progress Track -->
+              <div class="bg-white rounded-lg shadow-sm p-6">
+                <h3 class="text-lg font-semibold mb-4">Progress Track</h3>
+                <div class="space-y-4">
+                  <div>
+                    <div class="flex justify-between items-center mb-1">
+                      <span class="text-sm font-medium"
+                        >React Material Dashboard</span
+                      >
+                      <span class="text-sm font-medium">60%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5">
+                      <div
+                        class="bg-blue-600 h-2.5 rounded-full"
+                        style="width: 60%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="flex justify-between items-center mb-1">
+                      <span class="text-sm font-medium"
+                        >Argon Design System</span
+                      >
+                      <span class="text-sm font-medium">30%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5">
+                      <div
+                        class="bg-red-600 h-2.5 rounded-full"
+                        style="width: 30%"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script>
+      // Sales Chart
+      var ctx = document.getElementById("salesChart").getContext("2d");
+      var salesChart = new Chart(ctx, {
+        type: "line",
+        data: {
+          labels: [
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec",
+          ],
+          datasets: [
+            {
+              label: "Sales",
+              data: [100, 200, 300, 500, 400, 300, 400, 500, 600],
+              borderColor: "rgb(75, 192, 192)",
+              tension: 0.1,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          scales: {
+            y: {
+              beginAtZero: true,
+            },
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

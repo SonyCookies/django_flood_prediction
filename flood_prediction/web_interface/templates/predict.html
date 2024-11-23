@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flood Forecast Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #1a1a2e;
+        color: #e0e0e0;
+      }
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gradient-to-br from-gray-900 via-blue-900 to-blue-800 min-h-screen"
+  >
+    {% include 'navbar.html' %}
+
+    <div class="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
+      <header class="text-center mb-12">
+        <h1 class="text-5xl font-bold text-blue-300 tracking-wide mb-4">
+          Flood Predict
+        </h1>
+        <p class="text-xl text-blue-200">Input data to predict flood.</p>
+      </header>
+
+      <!-- Single Input Prediction Section -->
+      <div class="glass-effect p-6 shadow-lg mb-12">
+        <h2 class="text-2xl font-bold text-blue-300 mb-4">
+          River Discharge Prediction
+        </h2>
+        <form id="singlePredictionForm" class="space-y-4">
+          <div>
+            <label
+              for="currentDischarge"
+              class="block text-sm font-medium text-blue-200"
+            >
+              Current River Discharge (m³/s):
+            </label>
+            <input
+              type="text"
+              id="currentDischarge"
+              name="currentDischarge"
+              required
+              class="mt-1 block w-full px-3 py-2 bg-blue-900 border border-blue-700 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-white"
+              placeholder="e.g., 50.23"
+            />
+          </div>
+          <button
+            type="submit"
+            class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg shadow hover:bg-blue-700 transition duration-300"
+          >
+            Predict
+          </button>
+        </form>
+
+        <div id="singlePredictionResults" class="mt-6 hidden">
+          <h3 class="text-xl font-semibold text-blue-300 mb-4">
+            7-Day Predictions
+          </h3>
+          <div
+            id="singlePredictionCards"
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-6"
+          ></div>
+          <div class="mt-6">
+            <canvas
+              id="singlePredictionChart"
+              width="400"
+              height="100"
+            ></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Custom Prediction Section -->
+      <div class="glass-effect p-6 shadow-lg mb-12">
+        <h2 class="text-2xl font-semibold text-blue-300 mb-6">
+          Custom Prediction
+        </h2>
+        <form id="customPredictionForm" class="space-y-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div>
+              <label
+                for="riverDischarge"
+                class="block text-sm font-medium text-blue-200"
+              >
+                River Discharge (m³/s)
+              </label>
+              <input
+                type="text"
+                step="0.01"
+                id="riverDischarge"
+                name="riverDischarge"
+                required
+                class="mt-1 block w-full px-3 py-2 bg-blue-900 border border-blue-700 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-white"
+                placeholder="e.g., 50.23"
+              />
+            </div>
+            <div>
+              <label
+                for="temperature"
+                class="block text-sm font-medium text-blue-200"
+              >
+                Temperature (°C)
+              </label>
+              <input
+                type="text"
+                step="0.01"
+                id="temperature"
+                name="temperature"
+                required
+                class="mt-1 block w-full px-3 py-2 bg-blue-900 border border-blue-700 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-white"
+                placeholder="e.g., 30.5"
+              />
+            </div>
+            <div>
+              <label
+                for="humidity"
+                class="block text-sm font-medium text-blue-200"
+              >
+                Humidity (%)
+              </label>
+              <input
+                type="text"
+                step="0.01"
+                id="humidity"
+                name="humidity"
+                required
+                class="mt-1 block w-full px-3 py-2 bg-blue-900 border border-blue-700 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-white"
+                placeholder="e.g., 75.3"
+              />
+            </div>
+            <div>
+              <label
+                for="pressure"
+                class="block text-sm font-medium text-blue-200"
+              >
+                Pressure (hPa)
+              </label>
+              <input
+                type="text"
+                step="0.01"
+                id="pressure"
+                name="pressure"
+                required
+                class="mt-1 block w-full px-3 py-2 bg-blue-900 border border-blue-700 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-white"
+                placeholder="e.g., 1012.4"
+              />
+            </div>
+          </div>
+          <div class="text-center">
+            <button
+              type="submit"
+              class="w-full bg-blue-600 text-white px-6 py-2 rounded-md shadow-md hover:bg-blue-700 transition duration-300"
+            >
+              Predict
+            </button>
+          </div>
+        </form>
+        <div id="customPredictionResults" class="mt-6 hidden">
+          <h3 class="text-xl font-semibold text-blue-300 mb-4">
+            7-Day Prediction Results
+          </h3>
+          <div
+            id="customPredictionCards"
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-6"
+          ></div>
+          <div class="mt-6">
+            <canvas
+              id="customPredictionChart"
+              width="400"
+              height="200"
+            ></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include 'footer.html' %}
+
+    <script>
+      let singleInputChart;
+      let customInputChart;
+
+      function getNextDays(startDate, numDays) {
+        const days = [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+        ];
+        const result = [];
+        for (let i = 1; i <= numDays; i++) {
+          const nextDate = new Date(startDate);
+          nextDate.setDate(startDate.getDate() + i);
+          const dayOfWeek = days[nextDate.getDay()];
+          const formattedDate = nextDate.toLocaleDateString("en-US", {
+            month: "short",
+            day: "numeric",
+          });
+          result.push(`${dayOfWeek}, ${formattedDate}`);
+        }
+        return result;
+      }
+
+      function renderPredictionCards(predictions, containerId) {
+        const container = document.getElementById(containerId);
+        container.innerHTML = "";
+        const startDate = new Date();
+        const nextDays = getNextDays(startDate, predictions.length);
+        predictions.forEach((prediction, index) => {
+          const card = document.createElement("div");
+          card.className =
+            "bg-blue-800 bg-opacity-50 border border-blue-600 rounded-lg shadow p-4 text-center";
+          card.innerHTML = `
+                  <h4 class="text-lg font-semibold text-blue-300">${
+                    nextDays[index]
+                  }</h4>
+                  <p class="text-3xl font-bold text-blue-200">${prediction.toFixed(
+                    2
+                  )} m³/s</p>
+              `;
+          container.appendChild(card);
+        });
+      }
+
+      function renderChart(predictions, chartId, chartInstance) {
+        const ctx = document.getElementById(chartId).getContext("2d");
+
+        if (chartInstance) {
+          chartInstance.destroy();
+        }
+
+        const startDate = new Date();
+        const nextDays = getNextDays(startDate, predictions.length);
+
+        return new Chart(ctx, {
+          type: "line",
+          data: {
+            labels: nextDays,
+            datasets: [
+              {
+                label: "River Discharge (m³/s)",
+                data: predictions,
+                borderColor: "rgb(59, 130, 246)",
+                backgroundColor: "rgba(59, 130, 246, 0.2)",
+                tension: 0.1,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                position: "top",
+                labels: {
+                  color: "rgb(229, 231, 235)",
+                },
+              },
+              title: {
+                display: true,
+                text: "7-Day River Discharge Prediction",
+                color: "rgb(229, 231, 235)",
+              },
+            },
+            scales: {
+              y: {
+                beginAtZero: true,
+                title: {
+                  display: true,
+                  text: "River Discharge (m³/s)",
+                  color: "rgb(229, 231, 235)",
+                },
+                ticks: {
+                  color: "rgb(229, 231, 235)",
+                },
+                grid: {
+                  color: "rgba(229, 231, 235, 0.1)",
+                },
+              },
+              x: {
+                ticks: {
+                  color: "rgb(229, 231, 235)",
+                },
+                grid: {
+                  color: "rgba(229, 231, 235, 0.1)",
+                },
+              },
+            },
+          },
+        });
+      }
+
+      document
+        .getElementById("singlePredictionForm")
+        .addEventListener("submit", async (event) => {
+          event.preventDefault();
+          const currentDischarge =
+            document.getElementById("currentDischarge").value;
+
+          try {
+            const response = await fetch(
+              `/api/predict?current_discharge=${currentDischarge}`
+            );
+            console.log(response);
+            if (!response.ok) throw new Error("Failed to fetch predictions");
+            const data = await response.json();
+
+            if (data.predictions) {
+              renderPredictionCards(data.predictions, "singlePredictionCards");
+              singleInputChart = renderChart(
+                data.predictions,
+                "singlePredictionChart",
+                singleInputChart
+              );
+              document
+                .getElementById("singlePredictionResults")
+                .classList.remove("hidden");
+            } else {
+              alert("Prediction failed. Check the backend for errors.");
+            }
+          } catch (error) {
+            console.error(error);
+            alert("An error occurred. Please try again.");
+          }
+        });
+
+      document
+        .getElementById("customPredictionForm")
+        .addEventListener("submit", async (event) => {
+          event.preventDefault();
+          const riverDischarge =
+            document.getElementById("riverDischarge").value;
+          const temperature = document.getElementById("temperature").value;
+          const humidity = document.getElementById("humidity").value;
+          const pressure = document.getElementById("pressure").value;
+
+          try {
+            const response = await fetch(
+              `/api/predict_combined?river_discharge=${riverDischarge}&temperature=${temperature}&humidity=${humidity}&pressure=${pressure}`
+            );
+            const data = await response.json();
+
+            if (data.predictions) {
+              renderPredictionCards(data.predictions, "customPredictionCards");
+              customInputChart = renderChart(
+                data.predictions,
+                "customPredictionChart",
+                customInputChart
+              );
+              document
+                .getElementById("customPredictionResults")
+                .classList.remove("hidden");
+            } else {
+              console.error("Failed to fetch prediction.");
+              alert("Prediction failed. Check the backend for errors.");
+            }
+          } catch (error) {
+            console.error("Error:", error);
+            alert("An error occurred. Please try again.");
+          }
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Correlation Relationship</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #1a1a2e;
+        color: #e0e0e0;
+      }
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gradient-to-br from-gray-900 via-blue-900 to-blue-800 min-h-screen"
+  >
+    {% include 'navbar.html' %}
+
+    <div class="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
+      <header class="text-center mb-12">
+        <h1 class="text-5xl font-bold text-blue-300 tracking-wide mb-4">
+          Correlation Analysis
+        </h1>
+        <p class="text-xl text-blue-200">
+          Analyzing the relationship between river discharge and weather data.
+        </p>
+      </header>
+
+      <!-- Correlation Data Section -->
+      <div class="glass-effect p-6 shadow-lg mb-12">
+        <h2 class="text-2xl font-bold text-blue-300 mb-4">Correlation Data</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <!-- Temperature -->
+          <div
+            class="p-4 bg-blue-800 bg-opacity-50 border border-blue-600 rounded-lg text-center"
+          >
+            <h3 class="text-lg font-semibold text-blue-200">Temperature</h3>
+            <p
+              id="correlation-temperature"
+              class="text-3xl font-bold text-blue-100"
+            >
+              --
+            </p>
+            <p
+              id="description-temperature"
+              class="mt-2 text-sm text-blue-300 bg-blue-900 bg-opacity-50 p-2 rounded-md"
+            >
+              <!-- Description will be dynamically inserted here -->
+            </p>
+          </div>
+
+          <!-- Humidity -->
+          <div
+            class="p-4 bg-blue-800 bg-opacity-50 border border-blue-600 rounded-lg text-center"
+          >
+            <h3 class="text-lg font-semibold text-blue-200">Humidity</h3>
+            <p
+              id="correlation-humidity"
+              class="text-3xl font-bold text-blue-100"
+            >
+              --
+            </p>
+            <p
+              id="description-humidity"
+              class="mt-2 text-sm text-blue-300 bg-blue-900 bg-opacity-50 p-2 rounded-md"
+            >
+              <!-- Description will be dynamically inserted here -->
+            </p>
+          </div>
+
+          <!-- Pressure -->
+          <div
+            class="p-4 bg-blue-800 bg-opacity-50 border border-blue-600 rounded-lg text-center"
+          >
+            <h3 class="text-lg font-semibold text-blue-200">Pressure</h3>
+            <p
+              id="correlation-pressure"
+              class="text-3xl font-bold text-blue-100"
+            >
+              --
+            </p>
+            <p
+              id="description-pressure"
+              class="mt-2 text-sm text-blue-300 bg-blue-900 bg-opacity-50 p-2 rounded-md"
+            >
+              <!-- Description will be dynamically inserted here -->
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Correlation Description Section -->
+      <div
+        id="correlationDescription"
+        class="mt-6 text-center text-blue-300 hidden"
+      >
+        <!-- Correlation description will be dynamically populated here -->
+      </div>
+
+      <!-- Scatter Plot Section -->
+      <div class="glass-effect p-6 shadow-lg">
+        <h2 class="text-2xl font-semibold text-blue-300 mb-6">Scatter Plots</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div>
+            <h3 class="text-lg font-semibold text-blue-200 mb-2">
+              Temperature
+            </h3>
+            <canvas id="scatter-temperature"></canvas>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-blue-200 mb-2">Humidity</h3>
+            <canvas id="scatter-humidity"></canvas>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-blue-200 mb-2">Pressure</h3>
+            <canvas id="scatter-pressure"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Combined Trend Analysis and Bar Graph Section in One Row -->
+      <div class="container py-8 px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Trend Analysis -->
+          <div class="glass-effect p-6 shadow-lg">
+            <h2 class="text-2xl font-semibold text-blue-300 mb-6">
+              Trend Analysis
+            </h2>
+            <canvas id="line-chart-trend"></canvas>
+          </div>
+
+          <!-- Bar Graph Section -->
+          <div class="glass-effect p-6 shadow-lg">
+            <h2 class="text-2xl font-bold text-blue-300 mb-4">
+              Category Distribution
+            </h2>
+            <canvas id="category-bar-chart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include 'footer.html' %}
+
+    <script>
+      async function fetchCorrelationData() {
+        try {
+          const response = await fetch("/api/correlation");
+          if (!response.ok) throw new Error("Failed to fetch data");
+
+          const data = await response.json();
+          updateCorrelationData(data.correlations);
+          renderScatterPlots(data.scatter_data);
+        } catch (error) {
+          console.error("Error fetching correlation data:", error);
+          alert("An error occurred while fetching data.");
+        }
+      }
+
+      function updateCorrelationData(correlations) {
+        const temperatureCorrelation = correlations.temperature.toFixed(2);
+        const humidityCorrelation = correlations.humidity.toFixed(2);
+        const pressureCorrelation = correlations.pressure.toFixed(2);
+
+        document.getElementById("correlation-temperature").innerText =
+          temperatureCorrelation;
+        document.getElementById("correlation-humidity").innerText =
+          humidityCorrelation;
+        document.getElementById("correlation-pressure").innerText =
+          pressureCorrelation;
+
+        document.getElementById("description-temperature").innerText =
+          getCorrelationDescription(temperatureCorrelation);
+        document.getElementById("description-humidity").innerText =
+          getCorrelationDescription(humidityCorrelation);
+        document.getElementById("description-pressure").innerText =
+          getCorrelationDescription(pressureCorrelation);
+      }
+
+      function getCorrelationDescription(value) {
+        if (value >= 0.8) {
+          return "Strong positive correlation.";
+        } else if (value >= 0.5) {
+          return "Moderate positive correlation.";
+        } else if (value > 0) {
+          return "Weak positive correlation.";
+        } else if (value <= -0.8) {
+          return "Strong negative correlation.";
+        } else if (value <= -0.5) {
+          return "Moderate negative correlation.";
+        } else if (value < 0) {
+          return "Weak negative correlation.";
+        } else {
+          return "No significant correlation.";
+        }
+      }
+
+      function renderScatterPlots(scatterData) {
+        const temperatureCtx = document
+          .getElementById("scatter-temperature")
+          .getContext("2d");
+        const humidityCtx = document
+          .getElementById("scatter-humidity")
+          .getContext("2d");
+        const pressureCtx = document
+          .getElementById("scatter-pressure")
+          .getContext("2d");
+
+        createScatterPlot(
+          temperatureCtx,
+          scatterData.temperature,
+          "Temperature vs River Discharge"
+        );
+        createScatterPlot(
+          humidityCtx,
+          scatterData.humidity,
+          "Humidity vs River Discharge"
+        );
+        createScatterPlot(
+          pressureCtx,
+          scatterData.pressure,
+          "Pressure vs River Discharge"
+        );
+      }
+
+      function createScatterPlot(ctx, data, title) {
+        new Chart(ctx, {
+          type: "scatter",
+          data: {
+            datasets: [
+              {
+                label: title,
+                data: data.map(([x, y]) => ({ x, y })),
+                backgroundColor: "rgb(59, 130, 246)",
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: { display: false },
+              title: {
+                display: true,
+                text: title,
+                color: "rgb(229, 231, 235)",
+              },
+            },
+            scales: {
+              x: {
+                title: {
+                  display: true,
+                  text: "Value",
+                  color: "rgb(229, 231, 235)",
+                },
+                ticks: { color: "rgb(229, 231, 235)" },
+                grid: { color: "rgba(229, 231, 235, 0.1)" },
+              },
+              y: {
+                title: {
+                  display: true,
+                  text: "River Discharge (m³/s)",
+                  color: "rgb(229, 231, 235)",
+                },
+                ticks: { color: "rgb(229, 231, 235)" },
+                grid: { color: "rgba(229, 231, 235, 0.1)" },
+              },
+            },
+          },
+        });
+      }
+
+      async function fetchTrendData() {
+        try {
+          const response = await fetch("/api/trend");
+          const trendData = await response.json();
+
+          const labels = trendData.labels;
+          const datasets = {
+            riverDischarge: trendData.data.river_discharge,
+            temperature: trendData.data.temperature,
+            humidity: trendData.data.humidity,
+            pressure: trendData.data.pressure,
+          };
+
+          renderLineChart(labels, datasets); 
+        } catch (error) {
+          console.error("Error fetching trend data:", error);
+        }
+      }
+
+      function renderLineChart(labels, datasets) {
+        const ctx = document
+          .getElementById("line-chart-trend")
+          .getContext("2d");
+
+        const chartDatasets = [
+          {
+            label: "River Discharge",
+            data: datasets.riverDischarge,
+            borderColor: "rgba(75, 192, 192, 1)",
+            backgroundColor: "rgba(75, 192, 192, 0.2)",
+            fill: true,
+            tension: 0.4, 
+          },
+          {
+            label: "Temperature",
+            data: datasets.temperature,
+            borderColor: "rgba(255, 99, 132, 1)",
+            backgroundColor: "rgba(255, 99, 132, 0.2)",
+            fill: true,
+            tension: 0.4,
+          },
+          {
+            label: "Humidity",
+            data: datasets.humidity,
+            borderColor: "rgba(54, 162, 235, 1)",
+            backgroundColor: "rgba(54, 162, 235, 0.2)",
+            fill: true,
+            tension: 0.4,
+          },
+          {
+            label: "Pressure",
+            data: datasets.pressure,
+            borderColor: "rgba(153, 102, 255, 1)",
+            backgroundColor: "rgba(153, 102, 255, 0.2)",
+            fill: true,
+            tension: 0.4,
+          },
+        ];
+
+        // Render Chart.js Line Chart
+        new Chart(ctx, {
+          type: "line",
+          data: {
+            labels: labels, // X-axis labels (dates)
+            datasets: chartDatasets,
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                display: true,
+                labels: {
+                  color: "white", // Set legend labels to white
+                },
+              },
+              tooltip: {
+                enabled: true,
+              },
+            },
+            scales: {
+              x: {
+                title: {
+                  display: true,
+                  text: "Date",
+                  color: "white", // Set X-axis title to white
+                },
+                ticks: {
+                  color: "white", // Set X-axis ticks to white
+                },
+              },
+              y: {
+                title: {
+                  display: true,
+                  text: "Value",
+                  color: "white", // Set Y-axis title to white
+                },
+                ticks: {
+                  color: "white", // Set Y-axis ticks to white
+                },
+              },
+            },
+          },
+        });
+      }
+
+      async function fetchCategoryData() {
+        try {
+          const response = await fetch("/api/category");
+          if (!response.ok) throw new Error("Failed to fetch category data");
+
+          const data = await response.json();
+          renderCategoryBarChart(data); 
+        } catch (error) {
+          console.error("Error fetching category data:", error);
+          alert("An error occurred while fetching category data.");
+        }
+      }
+
+      function renderCategoryBarChart(data) {
+        const ctx = document
+          .getElementById("category-bar-chart")
+          .getContext("2d");
+
+        const labels = ["Low", "Moderate", "High"]; 
+        const riverDischargeData = [
+          data.river_discharge_categories.Low,
+          data.river_discharge_categories.Moderate,
+          data.river_discharge_categories.High,
+        ];
+        const temperatureData = [
+          data.temperature_categories.Low,
+          data.temperature_categories.Moderate,
+          data.temperature_categories.High,
+        ];
+        const humidityData = [
+          data.humidity_categories.Low,
+          data.humidity_categories.Moderate,
+          data.humidity_categories.High,
+        ];
+        const pressureData = [
+          data.pressure_categories.Low,
+          data.pressure_categories.Moderate,
+          data.pressure_categories.High,
+        ];
+
+        new Chart(ctx, {
+          type: "bar",
+          data: {
+            labels: labels,
+            datasets: [
+              {
+                label: "River Discharge",
+                data: riverDischargeData,
+                backgroundColor: "rgba(75, 192, 192, 0.6)",
+              },
+              {
+                label: "Temperature",
+                data: temperatureData,
+                backgroundColor: "rgba(255, 99, 132, 0.6)",
+              },
+              {
+                label: "Humidity",
+                data: humidityData,
+                backgroundColor: "rgba(54, 162, 235, 0.6)",
+              },
+              {
+                label: "Pressure",
+                data: pressureData,
+                backgroundColor: "rgba(153, 102, 255, 0.6)",
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                position: "top",
+                labels: {
+                  color: "white", 
+                },
+              },
+            },
+            scales: {
+              x: {
+                title: {
+                  display: true,
+                  text: "Category",
+                  color: "white",
+                },
+                ticks: {
+                  color: "white", // Set X-axis ticks to white
+                },
+                grid: {
+                  color: "rgba(255, 255, 255, 0.1)",
+                },
+              },
+              y: {
+                title: {
+                  display: true,
+                  text: "Count",
+                  color: "white",
+                },
+                ticks: {
+                  color: "white", 
+                },
+                grid: {
+                  color: "rgba(255, 255, 255, 0.1)", 
+                },
+              },
+            },
+          },
+        });
+      }
+
+      fetchCorrelationData();
+      fetchTrendData();
+      fetchCategoryData();
+    </script>
+  </body>
+</html>
