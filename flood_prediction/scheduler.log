@@ -4763,3 +4763,89 @@ Watching for file changes with StatReloader
 "GET /api/correlation HTTP/1.1" 200 50082
 "GET / HTTP/1.1" 200 30814
 "GET / HTTP/1.1" 200 30814
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /history HTTP/1.1" 200 22552
+"GET /history HTTP/1.1" 200 22552
+"GET /api/history HTTP/1.1" 200 8119
+"GET /api/history HTTP/1.1" 200 8119
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET /history HTTP/1.1" 200 22552
+"GET /history HTTP/1.1" 200 22552
+"GET /api/history HTTP/1.1" 200 8119
+"GET /api/history HTTP/1.1" 200 8119
+"GET /correlation HTTP/1.1" 200 27059
+"GET /correlation HTTP/1.1" 200 27059
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 4366
+"GET /api/trend HTTP/1.1" 200 4366
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET /predict HTTP/1.1" 200 24005
+"GET /predict HTTP/1.1" 200 24005
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET /predict HTTP/1.1" 200 24005
+"GET /predict HTTP/1.1" 200 24005
+"GET /api/predict?current_discharge=23 HTTP/1.1" 200 153
+"GET /api/predict?current_discharge=23 HTTP/1.1" 200 153
+"GET /api/predict_combined?river_discharge=23&temperature=30&humidity=76&pressure=1010.7 HTTP/1.1" 200 150
+"GET /api/predict_combined?river_discharge=23&temperature=30&humidity=76&pressure=1010.7 HTTP/1.1" 200 150
+"GET /history HTTP/1.1" 200 22552
+"GET /history HTTP/1.1" 200 22552
+"GET /api/history HTTP/1.1" 200 8119
+"GET /api/history HTTP/1.1" 200 8119
+"GET /correlation HTTP/1.1" 200 27059
+"GET /correlation HTTP/1.1" 200 27059
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 4366
+"GET /api/trend HTTP/1.1" 200 4366
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /history HTTP/1.1" 200 22552
+"GET /history HTTP/1.1" 200 22552
+"GET /api/history HTTP/1.1" 200 8119
+"GET /api/history HTTP/1.1" 200 8119
+"GET /predict HTTP/1.1" 200 24005
+"GET /predict HTTP/1.1" 200 24005
+"GET /history HTTP/1.1" 200 22552
+"GET /history HTTP/1.1" 200 22552
+"GET /api/history HTTP/1.1" 200 8119
+"GET /api/history HTTP/1.1" 200 8119
+"GET /correlation HTTP/1.1" 200 27059
+"GET /correlation HTTP/1.1" 200 27059
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 4366
+"GET /api/trend HTTP/1.1" 200 4366
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /predict HTTP/1.1" 200 24005
+"GET /predict HTTP/1.1" 200 24005
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
