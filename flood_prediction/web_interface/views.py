@@ -197,9 +197,11 @@ def get_history(request):
         return JsonResponse({'error': 'An error occurred while processing historical data.'}, status=500)
     
 
-
 def history(request):
     return render(request, 'historical_data.html')
+
+def earthquake(request):
+    return render(request, 'earthquake_prediction.html')
 
 
 def get_correlation_data(request):
@@ -249,7 +251,6 @@ def get_correlation_data(request):
 
 def correlation_relationship(request):
     return render(request, 'correlation_relationship.html')
-
 
 def get_trend_data(request):
     """

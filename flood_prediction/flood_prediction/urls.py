@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from web_interface import views as web_views
-from prediction.views import predict, predict_combined
+from prediction.views import predict, predict_combined, predict_next_30_days
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -31,4 +31,6 @@ urlpatterns = [
     path('correlation', web_views.correlation_relationship, name='correlation_relationship'),
     path('api/trend', web_views.get_trend_data, name='get_trend_data'),
     path('api/category', web_views.get_category_data, name='get_category_data'),
+    path('api/earthquake', predict_next_30_days, name='predict_next_30_days'),
+    path('earthquake', web_views.earthquake, name='earthquake'),
 ]

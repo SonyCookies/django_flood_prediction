@@ -4849,3 +4849,2736 @@ Watching for file changes with StatReloader
 "GET /predict HTTP/1.1" 200 24005
 "GET / HTTP/1.1" 200 30814
 "GET / HTTP/1.1" 200 30814
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET /predict HTTP/1.1" 200 24005
+"GET /predict HTTP/1.1" 200 24005
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3979
+"GET /favicon.ico HTTP/1.1" 404 3979
+"GET /predict HTTP/1.1" 200 24005
+"GET /predict HTTP/1.1" 200 24005
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET /history HTTP/1.1" 200 22552
+"GET /history HTTP/1.1" 200 22552
+"GET /api/history HTTP/1.1" 200 7741
+"GET /api/history HTTP/1.1" 200 7741
+"GET /correlation HTTP/1.1" 200 27059
+"GET /correlation HTTP/1.1" 200 27059
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 4231
+"GET /api/trend HTTP/1.1" 200 4231
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /predict HTTP/1.1" 200 24005
+"GET /predict HTTP/1.1" 200 24005
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET /predict HTTP/1.1" 200 24005
+"GET /predict HTTP/1.1" 200 24005
+"GET /history HTTP/1.1" 200 22552
+"GET /history HTTP/1.1" 200 22552
+"GET /api/history HTTP/1.1" 200 7741
+"GET /api/history HTTP/1.1" 200 7741
+"GET /correlation HTTP/1.1" 200 27059
+"GET /correlation HTTP/1.1" 200 27059
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 4231
+"GET /api/trend HTTP/1.1" 200 4231
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET /predict HTTP/1.1" 200 24005
+"GET /predict HTTP/1.1" 200 24005
+"GET /api/predict?current_discharge=23 HTTP/1.1" 200 153
+"GET /api/predict?current_discharge=23 HTTP/1.1" 200 153
+"GET /api/predict_combined?river_discharge=23&temperature=30&humidity=76&pressure=1010.7 HTTP/1.1" 200 150
+"GET /api/predict_combined?river_discharge=23&temperature=30&humidity=76&pressure=1010.7 HTTP/1.1" 200 150
+"GET /history HTTP/1.1" 200 22552
+"GET /history HTTP/1.1" 200 22552
+"GET /api/history HTTP/1.1" 200 7741
+"GET /api/history HTTP/1.1" 200 7741
+"GET /correlation HTTP/1.1" 200 27059
+"GET /correlation HTTP/1.1" 200 27059
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 4231
+"GET /api/trend HTTP/1.1" 200 4231
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /history HTTP/1.1" 200 22552
+"GET /history HTTP/1.1" 200 22552
+"GET /api/history HTTP/1.1" 200 7741
+"GET /api/history HTTP/1.1" 200 7741
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET /correlation HTTP/1.1" 200 27059
+"GET /correlation HTTP/1.1" 200 27059
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 4231
+"GET /api/trend HTTP/1.1" 200 4231
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /history HTTP/1.1" 200 22552
+"GET /history HTTP/1.1" 200 22552
+"GET /api/history HTTP/1.1" 200 7741
+"GET /api/history HTTP/1.1" 200 7741
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET /predict HTTP/1.1" 200 24005
+"GET /predict HTTP/1.1" 200 24005
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+"GET /history HTTP/1.1" 200 22552
+"GET /history HTTP/1.1" 200 22552
+"GET /api/history HTTP/1.1" 200 7741
+"GET /api/history HTTP/1.1" 200 7741
+"GET / HTTP/1.1" 200 30814
+"GET / HTTP/1.1" 200 30814
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Unexpected error: module 'django.utils.timezone' has no attribute 'utc'
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Unexpected error: name 'pytz' is not defined
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Unexpected error: no such table: data_collection_earthquakedata
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Successfully fetched and saved earthquake data for the Philippines from 2024-11-04 to 2024-12-04
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Successfully fetched and saved earthquake data for the Philippines from 2022-03-10 to 2024-12-04
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31025
+"GET / HTTP/1.1" 200 31025
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4352
+"GET /favicon.ico HTTP/1.1" 404 4352
+"GET / HTTP/1.1" 200 31025
+"GET / HTTP/1.1" 200 31025
+"GET /earthquake HTTP/1.1" 200 1719
+"GET /earthquake HTTP/1.1" 200 1719
+Not Found: /api/predict-earthquake/
+Not Found: /api/predict-earthquake/
+"GET /api/predict-earthquake/?date=2024-12-05 HTTP/1.1" 404 4404
+"GET /api/predict-earthquake/?date=2024-12-05 HTTP/1.1" 404 4404
+Not Found: /api/predict-earthquake/
+Not Found: /api/predict-earthquake/
+"GET /api/predict-earthquake/?date=2024-12-05 HTTP/1.1" 404 4404
+"GET /api/predict-earthquake/?date=2024-12-05 HTTP/1.1" 404 4404
+"GET /earthquake HTTP/1.1" 200 1719
+"GET /earthquake HTTP/1.1" 200 1719
+Not Found: /api/predict_earthquake/
+Not Found: /api/predict_earthquake/
+"GET /api/predict_earthquake/?date=2024-12-05 HTTP/1.1" 404 4404
+"GET /api/predict_earthquake/?date=2024-12-05 HTTP/1.1" 404 4404
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 1719
+"GET /earthquake HTTP/1.1" 200 1719
+Not Found: /api/predict_earthquake/
+Not Found: /api/predict_earthquake/
+"GET /api/predict_earthquake/?date=2024-12-16 HTTP/1.1" 404 4404
+"GET /api/predict_earthquake/?date=2024-12-16 HTTP/1.1" 404 4404
+"GET /earthquake HTTP/1.1" 200 1774
+"GET /earthquake HTTP/1.1" 200 1774
+Not Found: /api/predict_earthquake/
+Not Found: /api/predict_earthquake/
+"GET /api/predict_earthquake/?date=2024-12-12 HTTP/1.1" 404 4404
+"GET /api/predict_earthquake/?date=2024-12-12 HTTP/1.1" 404 4404
+"GET /earthquake HTTP/1.1" 200 1774
+"GET /earthquake HTTP/1.1" 200 1774
+"GET /earthquake HTTP/1.1" 200 1774
+"GET /earthquake HTTP/1.1" 200 1774
+"GET /earthquake HTTP/1.1" 200 1774
+"GET /earthquake HTTP/1.1" 200 1774
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31025
+"GET / HTTP/1.1" 200 31025
+"GET /earthquake HTTP/1.1" 200 1774
+"GET /earthquake HTTP/1.1" 200 1774
+Not Found: /api/predict_earthquake/
+Not Found: /api/predict_earthquake/
+"GET /api/predict_earthquake/?date=2024-12-04 HTTP/1.1" 404 4404
+"GET /api/predict_earthquake/?date=2024-12-04 HTTP/1.1" 404 4404
+"GET /earthquake HTTP/1.1" 200 1774
+"GET /earthquake HTTP/1.1" 200 1774
+Not Found: /api/predict_earthquake/
+Not Found: /api/predict_earthquake/
+"GET /api/predict_earthquake/?date=2024-12-05 HTTP/1.1" 404 4404
+"GET /api/predict_earthquake/?date=2024-12-05 HTTP/1.1" 404 4404
+Not Found: /api/predict_earthquake/
+Not Found: /api/predict_earthquake/
+"GET /api/predict_earthquake/?date=2024-12-13 HTTP/1.1" 404 4404
+"GET /api/predict_earthquake/?date=2024-12-13 HTTP/1.1" 404 4404
+"GET /earthquake HTTP/1.1" 200 1774
+"GET /earthquake HTTP/1.1" 200 1774
+"GET /earthquake HTTP/1.1" 200 1773
+"GET /earthquake HTTP/1.1" 200 1773
+"GET /api/predict_earthquake?date=2024-12-12 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-12 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 1773
+"GET /earthquake HTTP/1.1" 200 1773
+"GET / HTTP/1.1" 200 31218
+"GET / HTTP/1.1" 200 31218
+"GET /earthquake HTTP/1.1" 200 1773
+"GET /earthquake HTTP/1.1" 200 1773
+"GET /history HTTP/1.1" 200 22956
+"GET /history HTTP/1.1" 200 22956
+"GET /api/history HTTP/1.1" 200 6814
+"GET /api/history HTTP/1.1" 200 6814
+"GET /correlation HTTP/1.1" 200 27463
+"GET /correlation HTTP/1.1" 200 27463
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /predict HTTP/1.1" 200 24409
+"GET /predict HTTP/1.1" 200 24409
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /api/correlation HTTP/1.1" 200 50080
+"GET /api/correlation HTTP/1.1" 200 50080
+"GET /predict HTTP/1.1" 200 24409
+"GET /predict HTTP/1.1" 200 24409
+"GET /earthquake HTTP/1.1" 200 16150
+"GET /earthquake HTTP/1.1" 200 16150
+Not Found: /api/predict_earthquake/
+Not Found: /api/predict_earthquake/
+"GET /api/predict_earthquake/?date=2024-12-28 HTTP/1.1" 404 4404
+"GET /api/predict_earthquake/?date=2024-12-28 HTTP/1.1" 404 4404
+Not Found: /api/predict_earthquake/
+Not Found: /api/predict_earthquake/
+"GET /api/predict_earthquake/?date=2024-12-28 HTTP/1.1" 404 4404
+"GET /api/predict_earthquake/?date=2024-12-28 HTTP/1.1" 404 4404
+Not Found: /api/predict_earthquake/
+Not Found: /api/predict_earthquake/
+"GET /api/predict_earthquake/?date=2024-12-07 HTTP/1.1" 404 4404
+"GET /api/predict_earthquake/?date=2024-12-07 HTTP/1.1" 404 4404
+"GET /earthquake HTTP/1.1" 200 16323
+"GET /earthquake HTTP/1.1" 200 16323
+"GET /api/predict_earthquake?date=2024-12-21 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-21 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 18762
+"GET /earthquake HTTP/1.1" 200 18762
+"GET /api/predict_earthquake?date=2024-12-28 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-28 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 19914
+"GET /earthquake HTTP/1.1" 200 19914
+5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000256CA076AC0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+"GET /api/predict_earthquake?date=2024-12-05 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-05 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 19991
+"GET /earthquake HTTP/1.1" 200 19991
+5 out of the last 11 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000256CB297920> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+"GET /api/predict_earthquake?date=2024-12-07 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-07 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 19991
+"GET /earthquake HTTP/1.1" 200 19991
+"GET /api/predict_earthquake?date=2024-12-07 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-07 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 19984
+"GET /earthquake HTTP/1.1" 200 19984
+"GET /earthquake HTTP/1.1" 200 19984
+"GET /earthquake HTTP/1.1" 200 19984
+"GET /earthquake HTTP/1.1" 200 19984
+"GET /earthquake HTTP/1.1" 200 19984
+"GET /earthquake HTTP/1.1" 200 19984
+"GET /earthquake HTTP/1.1" 200 19984
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4352
+"GET /favicon.ico HTTP/1.1" 404 4352
+"GET /api/predict_earthquake?date=2024-12-07 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-07 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 19988
+"GET /earthquake HTTP/1.1" 200 19988
+"GET /api/predict_earthquake?date=2024-12-21 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-21 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 19989
+"GET /earthquake HTTP/1.1" 200 19989
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4352
+"GET /favicon.ico HTTP/1.1" 404 4352
+"GET /api/predict_earthquake?date=2024-12-07 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-07 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 19990
+"GET /earthquake HTTP/1.1" 200 19990
+"GET /earthquake HTTP/1.1" 200 19990
+"GET /earthquake HTTP/1.1" 200 19990
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4352
+"GET /favicon.ico HTTP/1.1" 404 4352
+"GET /api/predict_earthquake?date=2024-12-06 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-06 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 20068
+"GET /earthquake HTTP/1.1" 200 20068
+"GET /api/predict_earthquake?date=2024-12-06 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-06 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-28 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-28 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 20068
+"GET /earthquake HTTP/1.1" 200 20068
+"GET /api/predict_earthquake?date=2024-12-31 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-31 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-03 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-03 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-03 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-03 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2025-01-31 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2025-01-31 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 20068
+"GET /earthquake HTTP/1.1" 200 20068
+"GET /api/predict_earthquake?date=2025-01-11 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2025-01-11 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 20068
+"GET /earthquake HTTP/1.1" 200 20068
+"GET /api/predict_earthquake?date=2025-05-02 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2025-05-02 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-06 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-06 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-06 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-06 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-07 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-07 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 20068
+"GET /earthquake HTTP/1.1" 200 20068
+"GET /api/predict_earthquake?date=2024-12-06 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-06 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 20068
+"GET /earthquake HTTP/1.1" 200 20068
+"GET /api/predict_earthquake?date=2024-12-05 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-05 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 20068
+"GET /earthquake HTTP/1.1" 200 20068
+"GET /api/predict_earthquake?date=2024-12-27 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-27 HTTP/1.1" 200 145
+"GET /earthquake HTTP/1.1" 200 1773
+"GET /earthquake HTTP/1.1" 200 1773
+"GET /api/predict_earthquake?date=2024-12-05 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-05 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-20 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-20 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-23 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-23 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2025-01-03 HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2025-01-03 HTTP/1.1" 200 145
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31218
+"GET / HTTP/1.1" 200 31218
+"GET /earthquake HTTP/1.1" 200 2218
+"GET /earthquake HTTP/1.1" 200 2218
+"GET /earthquake?predictionDate=2024-12-07&csrfmiddlewaretoken=%3Cinput+type%3D HTTP/1.1" 200 2218
+"GET /earthquake?predictionDate=2024-12-07&csrfmiddlewaretoken=%3Cinput+type%3D HTTP/1.1" 200 2218
+"GET /earthquake?predictionDate=2024-12-12&csrfmiddlewaretoken=%3Cinput+type%3D HTTP/1.1" 200 2218
+"GET /earthquake?predictionDate=2024-12-12&csrfmiddlewaretoken=%3Cinput+type%3D HTTP/1.1" 200 2218
+"GET /earthquake?predictionDate=2024-12-12&csrfmiddlewaretoken=%3Cinput+type%3D HTTP/1.1" 200 3460
+"GET /earthquake?predictionDate=2024-12-12&csrfmiddlewaretoken=%3Cinput+type%3D HTTP/1.1" 200 3460
+Internal Server Error: /api/predict_earthquake
+Internal Server Error: /api/predict_earthquake
+"GET /api/predict_earthquake?date=2024-12-13T00:00:00Z HTTP/1.1" 500 129
+"GET /api/predict_earthquake?date=2024-12-13T00:00:00Z HTTP/1.1" 500 129
+"GET /earthquake?predictionDate=2024-12-12&csrfmiddlewaretoken=%3Cinput+type%3D HTTP/1.1" 200 3460
+"GET /earthquake?predictionDate=2024-12-12&csrfmiddlewaretoken=%3Cinput+type%3D HTTP/1.1" 200 3460
+Internal Server Error: /api/predict_earthquake
+Internal Server Error: /api/predict_earthquake
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 500 129
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 500 129
+Internal Server Error: /api/predict_earthquake
+Internal Server Error: /api/predict_earthquake
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 500 129
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 500 129
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake?predictionDate=2024-12-12&csrfmiddlewaretoken=%3Cinput+type%3D HTTP/1.1" 200 3460
+"GET /earthquake?predictionDate=2024-12-12&csrfmiddlewaretoken=%3Cinput+type%3D HTTP/1.1" 200 3460
+"GET /api/predict_earthquake?date=2024-12-07T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-07T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-28T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-28T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-05T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-05T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 200 145
+5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000020CFFD42CA0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+"GET /api/predict_earthquake?date=2025-01-18T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2025-01-18T00:00:00Z HTTP/1.1" 200 145
+6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000020CFFCC7880> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+"GET /api/predict_earthquake?date=2025-01-25T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2025-01-25T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2025-01-22T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2025-01-22T00:00:00Z HTTP/1.1" 200 145
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31218
+"GET / HTTP/1.1" 200 31218
+"GET /earthquake HTTP/1.1" 200 3460
+"GET /earthquake HTTP/1.1" 200 3460
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-21T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-21T00:00:00Z HTTP/1.1" 200 145
+5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001B154D3E2A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+"GET /api/predict_earthquake?date=2024-12-23T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-23T00:00:00Z HTTP/1.1" 200 145
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py changed, reloading.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31218
+"GET / HTTP/1.1" 200 31218
+"GET /earthquake HTTP/1.1" 200 3460
+"GET /earthquake HTTP/1.1" 200 3460
+"GET /api/predict_earthquake?date=2024-12-07T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-07T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-05T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-05T00:00:00Z HTTP/1.1" 200 145
+5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000029BE1A651C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 200 145
+5 out of the last 11 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000029BE1482700> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+"GET /api/predict_earthquake?date=2024-12-21T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-21T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-11T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-11T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-05T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-05T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 200 145
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 200 145
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 7150
+"GET /earthquake HTTP/1.1" 200 7150
+Not Found: /api/earthquake_forecast
+Not Found: /api/earthquake_forecast
+"GET /api/earthquake_forecast HTTP/1.1" 404 4572
+"GET /api/earthquake_forecast HTTP/1.1" 404 4572
+"GET /earthquake HTTP/1.1" 200 7141
+"GET /earthquake HTTP/1.1" 200 7141
+Internal Server Error: /api/earthquake
+Internal Server Error: /api/earthquake
+"GET /api/earthquake HTTP/1.1" 500 76
+"GET /api/earthquake HTTP/1.1" 500 76
+Internal Server Error: /api/earthquake
+Internal Server Error: /api/earthquake
+"GET /api/earthquake HTTP/1.1" 500 76
+"GET /api/earthquake HTTP/1.1" 500 76
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 7141
+"GET /earthquake HTTP/1.1" 200 7141
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 7355
+"GET /earthquake HTTP/1.1" 200 7355
+"GET /earthquake HTTP/1.1" 200 7355
+"GET /earthquake HTTP/1.1" 200 7355
+"GET /earthquake HTTP/1.1" 200 7355
+"GET /earthquake HTTP/1.1" 200 7355
+"GET /earthquake HTTP/1.1" 200 7355
+"GET /earthquake HTTP/1.1" 200 7355
+"GET /earthquake HTTP/1.1" 200 7355
+"GET /earthquake HTTP/1.1" 200 7355
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4538
+"GET /favicon.ico HTTP/1.1" 404 4538
+Not Found: /api/earthquake_forecast
+Not Found: /api/earthquake_forecast
+"GET /api/earthquake_forecast HTTP/1.1" 404 4574
+"GET /api/earthquake_forecast HTTP/1.1" 404 4574
+"GET /earthquake HTTP/1.1" 200 7363
+"GET /earthquake HTTP/1.1" 200 7363
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/predict_earthquake?date=2024-12-09T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-09T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-08T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-08T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-08T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-08T00:00:00Z HTTP/1.1" 200 146
+5 out of the last 34 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002EE1840F420> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+"GET /api/predict_earthquake?date=2024-12-08T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-08T00:00:00Z HTTP/1.1" 200 146
+"GET /earthquake HTTP/1.1" 200 7363
+"GET /earthquake HTTP/1.1" 200 7363
+6 out of the last 35 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002EE1860F740> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/predict_earthquake?date=2024-12-14T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-14T00:00:00Z HTTP/1.1" 200 146
+"GET /earthquake HTTP/1.1" 200 7363
+"GET /earthquake HTTP/1.1" 200 7363
+"GET /earthquake HTTP/1.1" 200 7363
+"GET /earthquake HTTP/1.1" 200 7363
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4538
+"GET /favicon.ico HTTP/1.1" 404 4538
+"GET /api/predict_earthquake?date=2024-12-05T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-05T00:00:00Z HTTP/1.1" 200 146
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/predict_earthquake?date=2024-12-05T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-05T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-28T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-28T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-28T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-28T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-28T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-28T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-28T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-28T00:00:00Z HTTP/1.1" 200 146
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 7363
+"GET /earthquake HTTP/1.1" 200 7363
+"GET /api/predict_earthquake?date=2024-12-13T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-13T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-21T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-21T00:00:00Z HTTP/1.1" 200 146
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 7363
+"GET /earthquake HTTP/1.1" 200 7363
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+Internal Server Error: /api/predict_earthquake
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 195, in predict_earthquake_for_date
+    Q(date__range=(start_date, end_date)) | Q(date__lt=start_date)
+    ^
+NameError: name 'Q' is not defined
+Internal Server Error: /api/predict_earthquake
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 195, in predict_earthquake_for_date
+    Q(date__range=(start_date, end_date)) | Q(date__lt=start_date)
+    ^
+NameError: name 'Q' is not defined
+"GET /api/predict_earthquake?date=2024-12-13T00:00:00Z HTTP/1.1" 500 73636
+"GET /api/predict_earthquake?date=2024-12-13T00:00:00Z HTTP/1.1" 500 73636
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 7363
+"GET /earthquake HTTP/1.1" 200 7363
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/predict_earthquake?date=2024-12-14T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-14T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 200 146
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 7363
+"GET /earthquake HTTP/1.1" 200 7363
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/predict_earthquake?date=2024-12-03T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-03T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-04T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-04T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-05T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-05T00:00:00Z HTTP/1.1" 200 146
+5 out of the last 34 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002B5DF3DD1C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 200 146
+"GET /api/predict_earthquake?date=2024-12-06T00:00:00Z HTTP/1.1" 200 146
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 10702
+"GET /earthquake HTTP/1.1" 200 10702
+Not Found: /api/earthquake_forecast
+Not Found: /api/earthquake_forecast
+"GET /api/earthquake_forecast HTTP/1.1" 404 4373
+"GET /api/earthquake_forecast HTTP/1.1" 404 4373
+"GET /earthquake HTTP/1.1" 200 10693
+"GET /earthquake HTTP/1.1" 200 10693
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 11277
+"GET /earthquake HTTP/1.1" 200 11277
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 13149
+"GET /earthquake HTTP/1.1" 200 13149
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 14342
+"GET /earthquake HTTP/1.1" 200 14342
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 14342
+"GET /earthquake HTTP/1.1" 200 14342
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 14209
+"GET /earthquake HTTP/1.1" 200 14209
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 14209
+"GET /earthquake HTTP/1.1" 200 14209
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 13149
+"GET /earthquake HTTP/1.1" 200 13149
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16468
+"GET /earthquake HTTP/1.1" 200 16468
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16704
+"GET /earthquake HTTP/1.1" 200 16704
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16704
+"GET /earthquake HTTP/1.1" 200 16704
+"GET /earthquake HTTP/1.1" 200 16704
+"GET /earthquake HTTP/1.1" 200 16704
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /correlation HTTP/1.1" 200 27463
+"GET /correlation HTTP/1.1" 200 27463
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /earthquake HTTP/1.1" 200 16704
+"GET /earthquake HTTP/1.1" 200 16704
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /correlation HTTP/1.1" 200 27463
+"GET /correlation HTTP/1.1" 200 27463
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /earthquake HTTP/1.1" 200 16704
+"GET /earthquake HTTP/1.1" 200 16704
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /correlation HTTP/1.1" 200 27463
+"GET /correlation HTTP/1.1" 200 27463
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /earthquake HTTP/1.1" 200 16704
+"GET /earthquake HTTP/1.1" 200 16704
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16704
+"GET /earthquake HTTP/1.1" 200 16704
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16705
+"GET /earthquake HTTP/1.1" 200 16705
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16705
+"GET /earthquake HTTP/1.1" 200 16705
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16707
+"GET /earthquake HTTP/1.1" 200 16707
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16707
+"GET /earthquake HTTP/1.1" 200 16707
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16721
+"GET /earthquake HTTP/1.1" 200 16721
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16721
+"GET /earthquake HTTP/1.1" 200 16721
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 18802
+"GET /earthquake HTTP/1.1" 200 18802
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104204
+"GET / HTTP/1.1" 500 104204
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4337
+"GET /favicon.ico HTTP/1.1" 404 4337
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104219
+"GET / HTTP/1.1" 500 104219
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104356
+"GET / HTTP/1.1" 500 104356
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104356
+"GET / HTTP/1.1" 500 104356
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104356
+"GET / HTTP/1.1" 500 104356
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104356
+"GET / HTTP/1.1" 500 104356
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104356
+"GET / HTTP/1.1" 500 104356
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104356
+"GET / HTTP/1.1" 500 104356
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104484
+"GET / HTTP/1.1" 500 104484
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4337
+"GET /favicon.ico HTTP/1.1" 404 4337
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104219
+"GET / HTTP/1.1" 500 104219
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104219
+"GET / HTTP/1.1" 500 104219
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104484
+"GET / HTTP/1.1" 500 104484
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4337
+"GET /favicon.ico HTTP/1.1" 404 4337
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+- Broken pipe from ('127.0.0.1', 2397)
+- Broken pipe from ('127.0.0.1', 2397)
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104484
+"GET / HTTP/1.1" 500 104484
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4337
+"GET /favicon.ico HTTP/1.1" 404 4337
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+- Broken pipe from ('127.0.0.1', 2398)
+- Broken pipe from ('127.0.0.1', 2398)
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+- Broken pipe from ('127.0.0.1', 2399)
+- Broken pipe from ('127.0.0.1', 2399)
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104484
+"GET / HTTP/1.1" 500 104484
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104484
+"GET / HTTP/1.1" 500 104484
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4337
+"GET /favicon.ico HTTP/1.1" 404 4337
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104219
+"GET / HTTP/1.1" 500 104219
+"GET /earthquake HTTP/1.1" 200 16721
+"GET /earthquake HTTP/1.1" 200 16721
+"GET /predict HTTP/1.1" 200 24409
+"GET /predict HTTP/1.1" 200 24409
+"GET /history HTTP/1.1" 200 22956
+"GET /history HTTP/1.1" 200 22956
+"GET /api/history HTTP/1.1" 200 6814
+"GET /api/history HTTP/1.1" 200 6814
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /correlation HTTP/1.1" 200 27463
+"GET /correlation HTTP/1.1" 200 27463
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /earthquake HTTP/1.1" 200 16721
+"GET /earthquake HTTP/1.1" 200 16721
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /api/trend HTTP/1.1" 200 3894
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py", line 36, in dashboard
+    forecast_response = predict_7_days(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 37, in predict_7_days
+    prediction = make_prediction(model, scaler, input_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\model_trainer\earthquake_lstm_model.py", line 51, in make_prediction
+    scaled_input = scaler.transform(input_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\preprocessing\_data.py", line 534, in transform
+    X = self._validate_data(
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\base.py", line 633, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\sklearn\utils\validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected 2D array, got 1D array instead:
+array=[2.46 2.23 2.06 2.03 2.18 2.34 2.54].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+"GET / HTTP/1.1" 500 104380
+"GET / HTTP/1.1" 500 104380
+"GET /api/correlation HTTP/1.1" 200 50080
+"GET /api/correlation HTTP/1.1" 200 50080
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31218
+"GET / HTTP/1.1" 200 31218
+"GET /predict HTTP/1.1" 200 24409
+"GET /predict HTTP/1.1" 200 24409
+"GET /history HTTP/1.1" 200 22956
+"GET /history HTTP/1.1" 200 22956
+"GET /api/history HTTP/1.1" 200 6814
+"GET /api/history HTTP/1.1" 200 6814
+"GET /correlation HTTP/1.1" 200 27463
+"GET /correlation HTTP/1.1" 200 27463
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /earthquake HTTP/1.1" 200 16721
+"GET /earthquake HTTP/1.1" 200 16721
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 18802
+"GET /earthquake HTTP/1.1" 200 18802
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 18802
+"GET /earthquake HTTP/1.1" 200 18802
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 17651
+"GET /earthquake HTTP/1.1" 200 17651
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 17651
+"GET /earthquake HTTP/1.1" 200 17651
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16721
+"GET /earthquake HTTP/1.1" 200 16721
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 15799
+"GET /earthquake HTTP/1.1" 200 15799
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16014
+"GET /earthquake HTTP/1.1" 200 16014
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 17186
+"GET /earthquake HTTP/1.1" 200 17186
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 17186
+"GET /earthquake HTTP/1.1" 200 17186
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /correlation HTTP/1.1" 200 27463
+"GET /correlation HTTP/1.1" 200 27463
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /earthquake HTTP/1.1" 200 16014
+"GET /earthquake HTTP/1.1" 200 16014
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/correlation HTTP/1.1" 200 50082
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16014
+"GET /earthquake HTTP/1.1" 200 16014
+"GET /earthquake HTTP/1.1" 200 17186
+"GET /earthquake HTTP/1.1" 200 17186
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31218
+"GET / HTTP/1.1" 200 31218
+"GET /earthquake HTTP/1.1" 200 17494
+"GET /earthquake HTTP/1.1" 200 17494
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET / HTTP/1.1" 200 31218
+"GET / HTTP/1.1" 200 31218
+"GET /earthquake HTTP/1.1" 200 13215
+"GET /earthquake HTTP/1.1" 200 13215
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+- Broken pipe from ('127.0.0.1', 2896)
+- Broken pipe from ('127.0.0.1', 2896)
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 15951
+"GET /earthquake HTTP/1.1" 200 13215
+"GET /earthquake HTTP/1.1" 200 13215
+- Broken pipe from ('127.0.0.1', 2914)
+- Broken pipe from ('127.0.0.1', 2914)
+- Broken pipe from ('127.0.0.1', 2924)
+- Broken pipe from ('127.0.0.1', 2924)
+- Broken pipe from ('127.0.0.1', 2925)
+- Broken pipe from ('127.0.0.1', 2925)
+- Broken pipe from ('127.0.0.1', 2926)
+- Broken pipe from ('127.0.0.1', 2926)
+- Broken pipe from ('127.0.0.1', 2927)
+- Broken pipe from ('127.0.0.1', 2927)
+- Broken pipe from ('127.0.0.1', 2928)
+- Broken pipe from ('127.0.0.1', 2928)
+- Broken pipe from ('127.0.0.1', 2929)
+- Broken pipe from ('127.0.0.1', 2929)
+- Broken pipe from ('127.0.0.1', 2930)
+- Broken pipe from ('127.0.0.1', 2930)
+- Broken pipe from ('127.0.0.1', 2931)
+- Broken pipe from ('127.0.0.1', 2931)
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 15813
+"GET /earthquake HTTP/1.1" 200 15813
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 13226
+"GET /earthquake HTTP/1.1" 200 13226
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 13227
+"GET /earthquake HTTP/1.1" 200 13227
+"GET /earthquake HTTP/1.1" 200 13232
+"GET /earthquake HTTP/1.1" 200 13232
+- Broken pipe from ('127.0.0.1', 2959)
+- Broken pipe from ('127.0.0.1', 2959)
+"GET /earthquake HTTP/1.1" 200 13232
+"GET /earthquake HTTP/1.1" 200 13232
+- Broken pipe from ('127.0.0.1', 2960)
+- Broken pipe from ('127.0.0.1', 2960)
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 13232
+"GET /earthquake HTTP/1.1" 200 13232
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 13232
+"GET /earthquake HTTP/1.1" 200 13232
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET / HTTP/1.1" 200 31218
+"GET / HTTP/1.1" 200 31218
+"GET /predict HTTP/1.1" 200 24409
+"GET /predict HTTP/1.1" 200 24409
+"GET /history HTTP/1.1" 200 22956
+"GET /history HTTP/1.1" 200 22956
+"GET /api/history HTTP/1.1" 200 6814
+"GET /api/history HTTP/1.1" 200 6814
+"GET /correlation HTTP/1.1" 200 27463
+"GET /correlation HTTP/1.1" 200 27463
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /api/trend HTTP/1.1" 200 3894
+"GET /api/correlation HTTP/1.1" 200 50080
+"GET /api/correlation HTTP/1.1" 200 50080
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16501
+"GET /earthquake HTTP/1.1" 200 16501
+Not Found: /api/earthquake/historical
+Not Found: /api/earthquake/historical
+"GET /api/earthquake/historical HTTP/1.1" 404 4379
+"GET /api/earthquake/historical HTTP/1.1" 404 4379
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\web_interface\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\flood_prediction\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 16348
+"GET /earthquake HTTP/1.1" 200 16348
+Not Found: /api/earthquake/historical
+Not Found: /api/earthquake/historical
+"GET /api/earthquake/historical HTTP/1.1" 404 4379
+"GET /api/earthquake/historical HTTP/1.1" 404 4379
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 16348
+"GET /earthquake HTTP/1.1" 200 16348
+Not Found: /api/earthquake/historical
+Not Found: /api/earthquake/historical
+"GET /api/earthquake/historical HTTP/1.1" 404 4379
+"GET /api/earthquake/historical HTTP/1.1" 404 4379
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+- Broken pipe from ('127.0.0.1', 3330)
+- Broken pipe from ('127.0.0.1', 3330)
+"GET / HTTP/1.1" 200 31218
+"GET / HTTP/1.1" 200 31218
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\data_collection\tasks.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\data_collection\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\data_collection\tasks.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\data_collection\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\data_collection\tasks.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\data_collection\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Fetching all data...
+Successfully fetched river data from 2024-11-24 to 2024-12-04
+Successfully fetched and saved weather data from 2024-11-24 to 2024-12-04
+Finished fetching all data.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader

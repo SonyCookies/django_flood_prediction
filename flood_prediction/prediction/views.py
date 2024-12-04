@@ -2,13 +2,67 @@ import os
 from django.http import JsonResponse
 from model_trainer.lstm_model import load_model_and_scaler, make_prediction
 from model_trainer.combined_lstm_model import load_combined_model_and_scaler, make_combined_prediction
-from data_collection.models import RiverData, WeatherData
+from model_trainer.earthquake_lstm_model import load_model_and_scaler as load_earthquake_model_and_scaler, make_prediction as make_earthquake_prediction
+from data_collection.models import RiverData, WeatherData, EarthquakeData
 import numpy as np
 from datetime import datetime, timedelta
+from django.utils import timezone
 import pandas as pd
 import logging
 
 logger = logging.getLogger(__name__)
+def predict_next_30_days(request):
+    model_path = 'earthquake_lstm_model.keras'
+    scaler_path = 'earthquake_scaler.joblib'
+
+    if not os.path.exists(model_path) or not os.path.exists(scaler_path):
+        return JsonResponse({'error': 'Model or scaler not found. Please train the model first.'}, status=400)
+
+    try:
+        model, scaler = load_earthquake_model_and_scaler(model_path, scaler_path)
+    except Exception as e:
+        return JsonResponse({'error': f'Error loading model or scaler: {str(e)}'}, status=500)
+
+    end_date = timezone.now()
+    start_date = end_date - timedelta(days=7)
+    earthquakes = list(EarthquakeData.objects.filter(date__range=(start_date, end_date)).order_by('-date')[:7].values('magnitude', 'depth', 'latitude', 'longitude'))
+
+    if len(earthquakes) < 7:
+        return JsonResponse({'error': 'Not enough historical data for prediction. Need at least 7 data points.'}, status=400)
+
+    input_data = np.array([[eq['magnitude'], eq['depth'], eq['latitude'], eq['longitude']] for eq in earthquakes])
+
+    try:
+        predictions = []
+        dates = []
+        current_date = timezone.now()
+
+        for i in range(30):
+            prediction = make_earthquake_prediction(model, scaler, input_data)
+            predictions.append({
+                'date': current_date.strftime('%Y-%m-%d'),
+                'earthquake_probability': f"{calculate_earthquake_probability(input_data, prediction):.2%}",
+                'magnitude': f"{prediction[0]:.2f}",
+                'depth': f"{prediction[1]:.2f}",
+                'latitude': f"{prediction[2]:.5f}",
+                'longitude': f"{prediction[3]:.5f}"
+            })
+            dates.append(current_date.strftime('%Y-%m-%d'))
+
+            input_data = np.roll(input_data, -1, axis=0)
+            input_data[-1] = prediction
+            current_date += timedelta(days=1)
+
+        return JsonResponse({'predictions': predictions, 'dates': dates})
+    except Exception as e:
+        return JsonResponse({'error': f'Error during prediction: {str(e)}'}, status=500)
+
+def calculate_earthquake_probability(historical_data, prediction, threshold=0.5):
+    avg_magnitude = np.mean(historical_data[:, 0])
+    exceedance_count = np.sum(historical_data[:, 0] > avg_magnitude + threshold)
+    probability = exceedance_count / len(historical_data)
+    return probability
+
 
 
 def predict_7_days(request):

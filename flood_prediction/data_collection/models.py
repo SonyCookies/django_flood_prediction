@@ -25,3 +25,18 @@ class WeatherData(models.Model):
 
     def __str__(self):
         return f"Weather Data for {self.date}"
+
+class EarthquakeData(models.Model):
+    date = models.DateTimeField(db_index=True)
+    magnitude = models.FloatField()
+    depth = models.FloatField()
+    latitude = models.FloatField()
+    longitude = models.FloatField()
+    location = models.CharField(max_length=255)
+
+    class Meta:
+        unique_together = ('date', 'latitude', 'longitude')
+
+    def __str__(self):
+        return f"Earthquake at {self.location} on {self.date}"
+

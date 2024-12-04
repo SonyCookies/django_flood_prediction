@@ -1,0 +1,222 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earthquake Prediction</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #1a1a2e;
+        color: #e0e0e0;
+      }
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+      }
+      .glass-effect:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+      }
+      .marker {
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+      }
+      .mapboxgl-popup {
+        max-width: 200px;
+      }
+      .mapboxgl-popup-content {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        background-color: rgba(26, 26, 46, 0.9);
+        color: #e0e0e0;
+        border-radius: 8px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gradient-to-br from-gray-900 via-blue-900 to-blue-800 min-h-screen"
+  >
+    {% include 'navbar.html' %}
+
+    <div class="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
+      <header class="text-center mb-12">
+        <h1 class="text-5xl font-bold text-blue-300 tracking-wide mb-4">
+          Earthquake Prediction
+        </h1>
+        <p class="text-xl text-blue-200">7-Day Earthquake Forecast</p>
+      </header>
+
+      <div id="errorContainer" class="glass-effect p-6 text-center hidden">
+        <p class="text-xl text-red-400"></p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div id="mapContainer" class="glass-effect p-6 lg:col-span-2 h-fit">
+          <h2 class="text-2xl font-semibold text-blue-300 mb-4">
+            Earthquake Locations
+          </h2>
+          <div id="map" class="w-full h-[500px]"></div>
+        </div>
+        <div id="forecastDetailsContainer" class="glass-effect p-6">
+          <h2 class="text-2xl font-semibold text-blue-300 mb-4">
+            Forecast Details
+          </h2>
+          <div
+            id="forecastDetails"
+            class="grid grid-cols-1 gap-4 overflow-y-auto max-h-[500px]"
+          >
+            <!-- Forecast details will be dynamically inserted here -->
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include 'footer.html' %}
+
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoidG94aWNvb2tpZSIsImEiOiJjbTNwdmJ3anYwaWpoMnJzZno3dzRzYjVsIn0.JdNtc3VaWJfD1YWX1r86oQ";
+
+      lucide.createIcons();
+
+      let map;
+
+      document.addEventListener("DOMContentLoaded", function () {
+        fetchForecast();
+      });
+
+      async function fetchForecast() {
+        try {
+          const response = await fetch("/api/earthquake");
+          if (!response.ok) throw new Error("Failed to fetch forecast");
+          const data = await response.json();
+          renderForecastDetails(data.predictions.slice(0, 7));
+          renderMap(data.predictions.slice(0, 7));
+        } catch (error) {
+          console.error(error);
+          document.getElementById("errorContainer").classList.remove("hidden");
+          document
+            .getElementById("errorContainer")
+            .querySelector("p").textContent =
+            "An error occurred while fetching the forecast. Please try again.";
+          document
+            .querySelectorAll(".glass-effect")
+            .forEach((el) => el.classList.add("hidden"));
+        }
+      }
+
+      function renderForecastDetails(forecast) {
+        const container = document.getElementById("forecastDetails");
+        container.innerHTML = forecast
+          .map((day, index) => {
+            const probability =
+              parseFloat(day.earthquake_probability.replace("%", "")) / 100;
+            const colorIntensity = Math.round(probability * 255);
+            const bgColor = `rgba(255, ${255 - colorIntensity}, ${
+              255 - colorIntensity
+            }, 0.1)`;
+            const borderColor = `rgba(255, ${255 - colorIntensity}, ${
+              255 - colorIntensity
+            }, 0.3)`;
+
+            return `
+                <div class="glass-effect p-4 rounded-lg cursor-pointer" style="background: ${bgColor}; border-color: ${borderColor};" onclick="centerMapOnLocation(${day.latitude}, ${day.longitude})">
+                  <h3 class="text-xl font-semibold text-blue-300 mb-2">${day.date}</h3>
+                  <div class="grid grid-cols-2 gap-4">
+                    <div class="flex items-center">
+                      <i data-lucide="alert-triangle" class="w-5 h-5 mr-2 text-yellow-400"></i>
+                      <p class="text-sm text-blue-200">
+                        <span class="font-medium">Probability:</span><br>
+                        ${day.earthquake_probability}
+                      </p>
+                    </div>
+                    <div class="flex items-center">
+                      <i data-lucide="activity" class="w-5 h-5 mr-2 text-red-400"></i>
+                      <p class="text-sm text-blue-200">
+                        <span class="font-medium">Magnitude:</span><br>
+                        ${day.magnitude}
+                      </p>
+                    </div>
+                    <div class="flex items-center">
+                      <i data-lucide="arrow-down" class="w-5 h-5 mr-2 text-green-400"></i>
+                      <p class="text-sm text-blue-200">
+                        <span class="font-medium">Depth:</span><br>
+                        ${day.depth} km
+                      </p>
+                    </div>
+                    <div class="flex items-center">
+                      <i data-lucide="map-pin" class="w-5 h-5 mr-2 text-blue-400"></i>
+                      <p class="text-sm text-blue-200">
+                        <span class="font-medium">Location:</span><br>
+                        ${day.latitude}, ${day.longitude}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              `;
+          })
+          .join("");
+
+        lucide.createIcons();
+      }
+
+      function centerMapOnLocation(latitude, longitude) {
+        map.flyTo({
+          center: [longitude, latitude],
+          zoom: 8,
+          essential: true,
+        });
+      }
+
+      function renderMap(forecast) {
+        map = new mapboxgl.Map({
+          container: "map",
+          style: "mapbox://styles/mapbox/dark-v10",
+          center: [122.584822, 12.443981],
+          zoom: 5,
+        });
+
+        map.on("load", () => {
+          forecast.forEach((day, index) => {
+            const magnitude = parseFloat(day.magnitude);
+            const radius = Math.max(5, magnitude * 5); // Adjust the multiplier to change the circle size
+
+            const el = document.createElement("div");
+            el.className = "marker";
+            el.style.backgroundColor = `rgba(255, ${
+              255 - Math.round(magnitude * 25)
+            }, 0, 0.6)`;
+            el.style.width = `${radius * 2}px`;
+            el.style.height = `${radius * 2}px`;
+            el.style.borderRadius = "50%";
+
+            new mapboxgl.Marker(el)
+              .setLngLat([parseFloat(day.longitude), parseFloat(day.latitude)])
+              .setPopup(
+                new mapboxgl.Popup({ offset: 25 }).setHTML(`
+                    <h3>${day.date}</h3>
+                    <p>Magnitude: ${day.magnitude}</p>
+                    <p>Probability: ${day.earthquake_probability}</p>
+                  `)
+              )
+              .addTo(map);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
