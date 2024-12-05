@@ -7824,3 +7824,41 @@ D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_predi
 D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET / HTTP/1.1" 200 31225
+"GET / HTTP/1.1" 200 31225
+"GET / HTTP/1.1" 200 31225
+"GET / HTTP/1.1" 200 31225
+"GET /predict HTTP/1.1" 200 24409
+"GET /predict HTTP/1.1" 200 24409
+"GET /api/predict?current_discharge=54 HTTP/1.1" 200 149
+"GET /api/predict?current_discharge=54 HTTP/1.1" 200 149
+"GET /api/predict_combined?river_discharge=23&temperature=30&humidity=76&pressure=1010.7 HTTP/1.1" 200 151
+"GET /api/predict_combined?river_discharge=23&temperature=30&humidity=76&pressure=1010.7 HTTP/1.1" 200 151
+"GET /history HTTP/1.1" 200 22956
+"GET /history HTTP/1.1" 200 22956
+"GET /api/history HTTP/1.1" 200 8000
+"GET /api/history HTTP/1.1" 200 8000
+"GET /correlation HTTP/1.1" 200 27463
+"GET /correlation HTTP/1.1" 200 27463
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 4343
+"GET /api/trend HTTP/1.1" 200 4343
+"GET /api/correlation HTTP/1.1" 200 50622
+"GET /api/correlation HTTP/1.1" 200 50622
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
