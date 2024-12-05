@@ -7582,3 +7582,245 @@ Added job "train_models" to job store "default"
 Scheduler started
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31225
+"GET / HTTP/1.1" 200 31225
+"GET /predict HTTP/1.1" 200 24409
+"GET /predict HTTP/1.1" 200 24409
+"GET /history HTTP/1.1" 200 22956
+"GET /history HTTP/1.1" 200 22956
+"GET /api/history HTTP/1.1" 200 8115
+"GET /api/history HTTP/1.1" 200 8115
+"GET /correlation HTTP/1.1" 200 27463
+"GET /correlation HTTP/1.1" 200 27463
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 4384
+"GET /api/trend HTTP/1.1" 200 4384
+"GET /api/correlation HTTP/1.1" 200 50621
+"GET /api/correlation HTTP/1.1" 200 50621
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /earthquake HTTP/1.1" 200 13238
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /predict HTTP/1.1" 200 24409
+"GET /predict HTTP/1.1" 200 24409
+"GET /history HTTP/1.1" 200 22956
+"GET /history HTTP/1.1" 200 22956
+"GET /api/history HTTP/1.1" 200 8115
+"GET /api/history HTTP/1.1" 200 8115
+"GET /correlation HTTP/1.1" 200 27463
+"GET /correlation HTTP/1.1" 200 27463
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 4384
+"GET /api/trend HTTP/1.1" 200 4384
+"GET /correlation HTTP/1.1" 200 27463
+"GET /correlation HTTP/1.1" 200 27463
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/category HTTP/1.1" 200 269
+"GET /api/trend HTTP/1.1" 200 4384
+"GET /api/trend HTTP/1.1" 200 4384
+"GET /api/correlation HTTP/1.1" 200 50621
+"GET /api/correlation HTTP/1.1" 200 50621
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/earthquake HTTP/1.1" 200 4889
+"GET /api/correlation HTTP/1.1" 200 50621
+"GET /api/correlation HTTP/1.1" 200 50621
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31225
+"GET / HTTP/1.1" 200 31225
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4337
+"GET /favicon.ico HTTP/1.1" 404 4337
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+Bad Request: /api/earthquake
+Bad Request: /api/earthquake
+"GET /api/earthquake HTTP/1.1" 400 84
+"GET /api/earthquake HTTP/1.1" 400 84
+Bad Request: /api/earthquake
+Bad Request: /api/earthquake
+"GET /api/earthquake HTTP/1.1" 400 84
+"GET /api/earthquake HTTP/1.1" 400 84
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'fetch_all_data'.
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job 'train_models'.
+Starting scheduler...
+Added job "fetch_all_data" to job store "default"
+Added job "train_models" to job store "default"
+Scheduler started
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31225
+"GET / HTTP/1.1" 200 31225
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+Bad Request: /api/earthquake
+Bad Request: /api/earthquake
+"GET /api/earthquake HTTP/1.1" 400 84
+"GET /api/earthquake HTTP/1.1" 400 84
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+"GET / HTTP/1.1" 200 31225
+"GET / HTTP/1.1" 200 31225
+"GET /api/earthquake HTTP/1.1" 200 4923
+"GET /api/earthquake HTTP/1.1" 200 4923
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /api/earthquake HTTP/1.1" 200 4923
+"GET /api/earthquake HTTP/1.1" 200 4923
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /api/earthquake HTTP/1.1" 200 4918
+"GET /api/earthquake HTTP/1.1" 200 4918
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+Internal Server Error: /api/earthquake
+Internal Server Error: /api/earthquake
+"GET /api/earthquake HTTP/1.1" 500 92
+"GET /api/earthquake HTTP/1.1" 500 92
+Internal Server Error: /api/earthquake
+Internal Server Error: /api/earthquake
+"GET /api/earthquake HTTP/1.1" 500 92
+"GET /api/earthquake HTTP/1.1" 500 92
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /api/earthquake HTTP/1.1" 200 4918
+"GET /api/earthquake HTTP/1.1" 200 4918
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+Internal Server Error: /api/earthquake
+Internal Server Error: /api/earthquake
+"GET /api/earthquake HTTP/1.1" 500 106
+"GET /api/earthquake HTTP/1.1" 500 106
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+Internal Server Error: /api/earthquake
+Internal Server Error: /api/earthquake
+"GET /api/earthquake HTTP/1.1" 500 106
+"GET /api/earthquake HTTP/1.1" 500 106
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+Internal Server Error: /api/earthquake
+Internal Server Error: /api/earthquake
+"GET /api/earthquake HTTP/1.1" 500 108
+"GET /api/earthquake HTTP/1.1" 500 108
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /api/earthquake HTTP/1.1" 200 4858
+"GET /api/earthquake HTTP/1.1" 200 4858
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31225
+"GET / HTTP/1.1" 200 31225
+"GET /earthquake HTTP/1.1" 200 19606
+"GET /earthquake HTTP/1.1" 200 19606
+Internal Server Error: /api/earthquake
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 39, in predict_next_30_days
+    input_data = np.pad(input_data, ((7 - len(input_data), 0), (0, 0)), mode='constant', constant_values=padding)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\numpy\lib\_arraypad_impl.py", line 817, in pad
+    values = _as_pairs(values, padded.ndim)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\numpy\lib\_arraypad_impl.py", line 534, in _as_pairs
+    return np.broadcast_to(x, (ndim, 2)).tolist()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py", line 422, in broadcast_to
+    return _broadcast_to(array, shape, subok=subok, readonly=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py", line 358, in _broadcast_to
+    it = np.nditer(
+         ^^^^^^^^^^
+ValueError: operands could not be broadcast together with remapped shapes [original->remapped]: (4,)  and requested shape (2,2)
+Internal Server Error: /api/earthquake
+Traceback (most recent call last):
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py", line 39, in predict_next_30_days
+    input_data = np.pad(input_data, ((7 - len(input_data), 0), (0, 0)), mode='constant', constant_values=padding)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\numpy\lib\_arraypad_impl.py", line 817, in pad
+    values = _as_pairs(values, padded.ndim)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\numpy\lib\_arraypad_impl.py", line 534, in _as_pairs
+    return np.broadcast_to(x, (ndim, 2)).tolist()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py", line 422, in broadcast_to
+    return _broadcast_to(array, shape, subok=subok, readonly=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\venv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py", line 358, in _broadcast_to
+    it = np.nditer(
+         ^^^^^^^^^^
+ValueError: operands could not be broadcast together with remapped shapes [original->remapped]: (4,)  and requested shape (2,2)
+"GET /api/earthquake HTTP/1.1" 500 92311
+"GET /api/earthquake HTTP/1.1" 500 92311
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+D:\3RDYEAR PROJECTS\FINALPROJECTPYTHONDJANGO\django_flood_prediction\flood_prediction\prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader

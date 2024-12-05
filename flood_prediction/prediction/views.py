@@ -24,13 +24,19 @@ def predict_next_30_days(request):
         return JsonResponse({'error': f'Error loading model or scaler: {str(e)}'}, status=500)
 
     end_date = timezone.now()
-    start_date = end_date - timedelta(days=7)
+    start_date = end_date - timedelta(days=30)
     earthquakes = list(EarthquakeData.objects.filter(date__range=(start_date, end_date)).order_by('-date')[:7].values('magnitude', 'depth', 'latitude', 'longitude'))
 
-    if len(earthquakes) < 7:
-        return JsonResponse({'error': 'Not enough historical data for prediction. Need at least 7 data points.'}, status=400)
+    if len(earthquakes) < 1:
+        return JsonResponse({'error': 'No earthquake data found in the last 30 days.'}, status=400)
 
+    # Use the available data (up to 3 points)
     input_data = np.array([[eq['magnitude'], eq['depth'], eq['latitude'], eq['longitude']] for eq in earthquakes])
+
+    # If we have less than 3 points, pad the input data
+    if len(input_data) < 7:
+        padding = np.mean(input_data, axis=0)
+        input_data = np.pad(input_data, ((7 - len(input_data), 0), (0, 0)), mode='constant', constant_values=padding)
 
     try:
         predictions = []
@@ -39,6 +45,7 @@ def predict_next_30_days(request):
 
         for i in range(30):
             prediction = make_earthquake_prediction(model, scaler, input_data)
+
             predictions.append({
                 'date': current_date.strftime('%Y-%m-%d'),
                 'earthquake_probability': f"{calculate_earthquake_probability(input_data, prediction):.2%}",
@@ -49,6 +56,7 @@ def predict_next_30_days(request):
             })
             dates.append(current_date.strftime('%Y-%m-%d'))
 
+            # Update input_data for next prediction
             input_data = np.roll(input_data, -1, axis=0)
             input_data[-1] = prediction
             current_date += timedelta(days=1)
@@ -56,7 +64,6 @@ def predict_next_30_days(request):
         return JsonResponse({'predictions': predictions, 'dates': dates})
     except Exception as e:
         return JsonResponse({'error': f'Error during prediction: {str(e)}'}, status=500)
-
 def calculate_earthquake_probability(historical_data, prediction, threshold=0.5):
     avg_magnitude = np.mean(historical_data[:, 0])
     exceedance_count = np.sum(historical_data[:, 0] > avg_magnitude + threshold)
